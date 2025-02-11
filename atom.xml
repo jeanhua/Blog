@@ -3,11 +3,11 @@
   <title>jeanhua&#39;s blog</title>
   
   
-  <link href="http://blog.jeanhua.cn/atom.xml" rel="self"/>
+  <link href="http://www.blog.jeanhua.cn/atom.xml" rel="self"/>
   
-  <link href="http://blog.jeanhua.cn/"/>
-  <updated>2025-02-11T11:37:49.426Z</updated>
-  <id>http://blog.jeanhua.cn/</id>
+  <link href="http://www.blog.jeanhua.cn/"/>
+  <updated>2025-02-11T11:53:06.026Z</updated>
+  <id>http://www.blog.jeanhua.cn/</id>
   
   <author>
     <name>jeanhua</name>
@@ -18,12 +18,12 @@
   
   <entry>
     <title>寒假做了一个校园集市</title>
-    <link href="http://blog.jeanhua.cn/2025/02/11/0fda2382b044/"/>
-    <id>http://blog.jeanhua.cn/2025/02/11/0fda2382b044/</id>
+    <link href="http://www.blog.jeanhua.cn/2025/02/11/0fda2382b044/"/>
+    <id>http://www.blog.jeanhua.cn/2025/02/11/0fda2382b044/</id>
     <published>2025-02-11T11:24:26.000Z</published>
-    <updated>2025-02-11T11:37:49.426Z</updated>
+    <updated>2025-02-11T11:53:06.026Z</updated>
     
-    <content type="html"><![CDATA[<p>期末考完没事刷集市的时候发现，集市加载比较缓慢，因为是我的网络问题。但是越刷速度越慢，于是抓包分析，发现集市获取帖子没做分页处理，每次加载都会携带之前加载过的内容，导致越往后加载的内容越多，速度也就越慢，同时发现，集市的图片上传并没有做压缩处理，原图中有很多不必要的信息也一同带上去，导致信息泄露的风险，同时也导致图片加载缓慢.</p><p>于是我在想，做一个集市需要多少工作……</p><p>寒假肝了一段时间，中途过于无聊，又转去打游戏，因为耳机忘在学校，cs打不了，又重新拾回搁置一年多的王者荣耀，后面受不了又去网上买了新耳机🤣</p><p>还有10多天开学，想着不能半途而废的精神，于是加紧赶工把集市做了出来，后端用的asp.net框架，前端用的vue，数据库用的mysql，源代码已经在github全部开源，感兴趣可以去看 <a href="https://github.com/jeanhua">jeanhua (jeanhua)</a></p>]]></content>
+    <content type="html"><![CDATA[<p>期末考完没事刷集市的时候发现，集市加载比较缓慢，因为是我的网络问题。但是越刷速度越慢，于是抓包分析，发现集市获取帖子没做分页处理，每次加载都会携带之前加载过的内容，导致越往后加载的内容越多，速度也就越慢，同时发现，集市的图片上传并没有做压缩处理，原图中有很多不必要的信息也一同带上去，导致信息泄露的风险，同时也导致图片加载缓慢.</p><p>于是我在想，做一个集市需要多少工作……</p><p>寒假肝了一段时间，中途过于无聊，又转去打游戏，因为耳机忘在学校，cs打不了，又重新拾回搁置一年多的王者荣耀，后面受不了又去网上买了新耳机🤣</p><p>还有10多天开学，想着不能半途而废的精神，于是加紧赶工把集市做了出来，后端用的asp.net框架，前端用的vue，数据库用的mysql，源代码已经在github全部开源，感兴趣可以去看 <a href="https://github.com/jeanhua">jeanhua (github.com&#x2F;jeanhua)</a></p>]]></content>
     
     
       
@@ -34,20 +34,20 @@
     
     
     
-    <category term="校园集市" scheme="http://blog.jeanhua.cn/tags/%E6%A0%A1%E5%9B%AD%E9%9B%86%E5%B8%82/"/>
+    <category term="校园集市" scheme="http://www.blog.jeanhua.cn/tags/%E6%A0%A1%E5%9B%AD%E9%9B%86%E5%B8%82/"/>
     
-    <category term="C#" scheme="http://blog.jeanhua.cn/tags/C/"/>
+    <category term="C#" scheme="http://www.blog.jeanhua.cn/tags/C/"/>
     
-    <category term="aspnet" scheme="http://blog.jeanhua.cn/tags/aspnet/"/>
+    <category term="aspnet" scheme="http://www.blog.jeanhua.cn/tags/aspnet/"/>
     
-    <category term="Vue" scheme="http://blog.jeanhua.cn/tags/Vue/"/>
+    <category term="Vue" scheme="http://www.blog.jeanhua.cn/tags/Vue/"/>
     
   </entry>
   
   <entry>
     <title>C语言中文乱码解决方案-vscode</title>
-    <link href="http://blog.jeanhua.cn/2024/12/09/d0787b82528e/"/>
-    <id>http://blog.jeanhua.cn/2024/12/09/d0787b82528e/</id>
+    <link href="http://www.blog.jeanhua.cn/2024/12/09/d0787b82528e/"/>
+    <id>http://www.blog.jeanhua.cn/2024/12/09/d0787b82528e/</id>
     <published>2024-12-09T13:46:48.000Z</published>
     <updated>2024-12-09T13:57:30.053Z</updated>
     
@@ -62,17 +62,17 @@
     
     
     
-    <category term="C++" scheme="http://blog.jeanhua.cn/categories/C/"/>
+    <category term="C++" scheme="http://www.blog.jeanhua.cn/categories/C/"/>
     
     
-    <category term="C++" scheme="http://blog.jeanhua.cn/tags/C/"/>
+    <category term="C++" scheme="http://www.blog.jeanhua.cn/tags/C/"/>
     
   </entry>
   
   <entry>
     <title>浅谈国内的计算机高等教育</title>
-    <link href="http://blog.jeanhua.cn/2024/11/22/339b271d31c1/"/>
-    <id>http://blog.jeanhua.cn/2024/11/22/339b271d31c1/</id>
+    <link href="http://www.blog.jeanhua.cn/2024/11/22/339b271d31c1/"/>
+    <id>http://www.blog.jeanhua.cn/2024/11/22/339b271d31c1/</id>
     <published>2024-11-22T13:13:21.000Z</published>
     <updated>2024-12-08T12:33:09.070Z</updated>
     
@@ -89,19 +89,19 @@
     
     
     
-    <category term="随笔" scheme="http://blog.jeanhua.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="http://www.blog.jeanhua.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-    <category term="计算机" scheme="http://blog.jeanhua.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    <category term="计算机" scheme="http://www.blog.jeanhua.cn/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
-    <category term="高等教育" scheme="http://blog.jeanhua.cn/tags/%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2/"/>
+    <category term="高等教育" scheme="http://www.blog.jeanhua.cn/tags/%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2/"/>
     
   </entry>
   
   <entry>
     <title>浅谈C语言的scanf</title>
-    <link href="http://blog.jeanhua.cn/2024/11/02/af6db4fbaa29/"/>
-    <id>http://blog.jeanhua.cn/2024/11/02/af6db4fbaa29/</id>
+    <link href="http://www.blog.jeanhua.cn/2024/11/02/af6db4fbaa29/"/>
+    <id>http://www.blog.jeanhua.cn/2024/11/02/af6db4fbaa29/</id>
     <published>2024-11-02T12:43:11.000Z</published>
     <updated>2024-11-02T13:00:29.929Z</updated>
     
@@ -114,17 +114,17 @@
     
     
     
-    <category term="C语言" scheme="http://blog.jeanhua.cn/categories/C%E8%AF%AD%E8%A8%80/"/>
+    <category term="C语言" scheme="http://www.blog.jeanhua.cn/categories/C%E8%AF%AD%E8%A8%80/"/>
     
     
-    <category term="C语言" scheme="http://blog.jeanhua.cn/tags/C%E8%AF%AD%E8%A8%80/"/>
+    <category term="C语言" scheme="http://www.blog.jeanhua.cn/tags/C%E8%AF%AD%E8%A8%80/"/>
     
   </entry>
   
   <entry>
     <title>做了一个聊天软件，记录踩的坑</title>
-    <link href="http://blog.jeanhua.cn/2024/09/29/1fd212270409/"/>
-    <id>http://blog.jeanhua.cn/2024/09/29/1fd212270409/</id>
+    <link href="http://www.blog.jeanhua.cn/2024/09/29/1fd212270409/"/>
+    <id>http://www.blog.jeanhua.cn/2024/09/29/1fd212270409/</id>
     <published>2024-09-28T16:13:32.000Z</published>
     <updated>2024-12-26T15:29:04.012Z</updated>
     
@@ -139,21 +139,21 @@
     
     
     
-    <category term="随笔" scheme="http://blog.jeanhua.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="http://www.blog.jeanhua.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-    <category term="软件" scheme="http://blog.jeanhua.cn/tags/%E8%BD%AF%E4%BB%B6/"/>
+    <category term="软件" scheme="http://www.blog.jeanhua.cn/tags/%E8%BD%AF%E4%BB%B6/"/>
     
-    <category term="代码" scheme="http://blog.jeanhua.cn/tags/%E4%BB%A3%E7%A0%81/"/>
+    <category term="代码" scheme="http://www.blog.jeanhua.cn/tags/%E4%BB%A3%E7%A0%81/"/>
     
-    <category term="flutter" scheme="http://blog.jeanhua.cn/tags/flutter/"/>
+    <category term="flutter" scheme="http://www.blog.jeanhua.cn/tags/flutter/"/>
     
   </entry>
   
   <entry>
     <title>吐槽flutter</title>
-    <link href="http://blog.jeanhua.cn/2024/09/20/37610e31485f/"/>
-    <id>http://blog.jeanhua.cn/2024/09/20/37610e31485f/</id>
+    <link href="http://www.blog.jeanhua.cn/2024/09/20/37610e31485f/"/>
+    <id>http://www.blog.jeanhua.cn/2024/09/20/37610e31485f/</id>
     <published>2024-09-20T15:13:58.000Z</published>
     <updated>2024-09-20T15:17:24.829Z</updated>
     
@@ -165,19 +165,19 @@
     
     
     
-    <category term="随笔" scheme="http://blog.jeanhua.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="http://www.blog.jeanhua.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-    <category term="flutter" scheme="http://blog.jeanhua.cn/tags/flutter/"/>
+    <category term="flutter" scheme="http://www.blog.jeanhua.cn/tags/flutter/"/>
     
-    <category term="吐槽" scheme="http://blog.jeanhua.cn/tags/%E5%90%90%E6%A7%BD/"/>
+    <category term="吐槽" scheme="http://www.blog.jeanhua.cn/tags/%E5%90%90%E6%A7%BD/"/>
     
   </entry>
   
   <entry>
     <title>大学最抽象的课程——大物实验</title>
-    <link href="http://blog.jeanhua.cn/2024/09/16/45f07bb9c805/"/>
-    <id>http://blog.jeanhua.cn/2024/09/16/45f07bb9c805/</id>
+    <link href="http://www.blog.jeanhua.cn/2024/09/16/45f07bb9c805/"/>
+    <id>http://www.blog.jeanhua.cn/2024/09/16/45f07bb9c805/</id>
     <published>2024-09-16T12:12:09.000Z</published>
     <updated>2024-09-18T00:25:15.574Z</updated>
     
@@ -191,17 +191,17 @@
     
     
     
-    <category term="随笔" scheme="http://blog.jeanhua.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="http://www.blog.jeanhua.cn/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-    <category term="随笔" scheme="http://blog.jeanhua.cn/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="http://www.blog.jeanhua.cn/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
   <entry>
     <title>博客在云服务器和github之间的同步</title>
-    <link href="http://blog.jeanhua.cn/2024/09/14/ebdfcd8245d2/"/>
-    <id>http://blog.jeanhua.cn/2024/09/14/ebdfcd8245d2/</id>
+    <link href="http://www.blog.jeanhua.cn/2024/09/14/ebdfcd8245d2/"/>
+    <id>http://www.blog.jeanhua.cn/2024/09/14/ebdfcd8245d2/</id>
     <published>2024-09-14T15:05:15.000Z</published>
     <updated>2024-09-19T15:36:47.361Z</updated>
     
@@ -213,23 +213,23 @@
     
     
     
-    <category term="方法论" scheme="http://blog.jeanhua.cn/categories/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
+    <category term="方法论" scheme="http://www.blog.jeanhua.cn/categories/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
     
     
-    <category term="python" scheme="http://blog.jeanhua.cn/tags/python/"/>
+    <category term="python" scheme="http://www.blog.jeanhua.cn/tags/python/"/>
     
-    <category term="服务器" scheme="http://blog.jeanhua.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <category term="服务器" scheme="http://www.blog.jeanhua.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
-    <category term="博客" scheme="http://blog.jeanhua.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="http://www.blog.jeanhua.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="ssh" scheme="http://blog.jeanhua.cn/tags/ssh/"/>
+    <category term="ssh" scheme="http://www.blog.jeanhua.cn/tags/ssh/"/>
     
   </entry>
   
   <entry>
     <title>ubuntu服务器配置网站</title>
-    <link href="http://blog.jeanhua.cn/2024/07/20/85976580bd9f/"/>
-    <id>http://blog.jeanhua.cn/2024/07/20/85976580bd9f/</id>
+    <link href="http://www.blog.jeanhua.cn/2024/07/20/85976580bd9f/"/>
+    <id>http://www.blog.jeanhua.cn/2024/07/20/85976580bd9f/</id>
     <published>2024-07-20T14:05:25.000Z</published>
     <updated>2024-12-21T03:59:42.472Z</updated>
     
@@ -246,16 +246,16 @@
     
     
     
-    <category term="服务器" scheme="http://blog.jeanhua.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <category term="服务器" scheme="http://www.blog.jeanhua.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
-    <category term="网站" scheme="http://blog.jeanhua.cn/tags/%E7%BD%91%E7%AB%99/"/>
+    <category term="网站" scheme="http://www.blog.jeanhua.cn/tags/%E7%BD%91%E7%AB%99/"/>
     
   </entry>
   
   <entry>
     <title>服务器入门</title>
-    <link href="http://blog.jeanhua.cn/2024/07/15/259b0a619408/"/>
-    <id>http://blog.jeanhua.cn/2024/07/15/259b0a619408/</id>
+    <link href="http://www.blog.jeanhua.cn/2024/07/15/259b0a619408/"/>
+    <id>http://www.blog.jeanhua.cn/2024/07/15/259b0a619408/</id>
     <published>2024-07-15T03:08:00.000Z</published>
     <updated>2024-09-12T14:52:37.623Z</updated>
     
@@ -273,14 +273,14 @@
     
     
     
-    <category term="服务器" scheme="http://blog.jeanhua.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <category term="服务器" scheme="http://www.blog.jeanhua.cn/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>关于Visual Studio报错scanf_s等*_s代码报错的解决方案</title>
-    <link href="http://blog.jeanhua.cn/2024/06/17/c85462058ea9/"/>
-    <id>http://blog.jeanhua.cn/2024/06/17/c85462058ea9/</id>
+    <link href="http://www.blog.jeanhua.cn/2024/06/17/c85462058ea9/"/>
+    <id>http://www.blog.jeanhua.cn/2024/06/17/c85462058ea9/</id>
     <published>2024-06-17T08:41:00.000Z</published>
     <updated>2024-09-18T00:26:48.148Z</updated>
     
@@ -297,14 +297,14 @@
     
     
     
-    <category term="visual studio" scheme="http://blog.jeanhua.cn/tags/visual-studio/"/>
+    <category term="visual studio" scheme="http://www.blog.jeanhua.cn/tags/visual-studio/"/>
     
   </entry>
   
   <entry>
     <title>python爬取校园集市帖子并生成词云图</title>
-    <link href="http://blog.jeanhua.cn/2024/06/15/986d735abcc0/"/>
-    <id>http://blog.jeanhua.cn/2024/06/15/986d735abcc0/</id>
+    <link href="http://www.blog.jeanhua.cn/2024/06/15/986d735abcc0/"/>
+    <id>http://www.blog.jeanhua.cn/2024/06/15/986d735abcc0/</id>
     <published>2024-06-15T08:37:00.000Z</published>
     <updated>2024-09-18T00:26:57.316Z</updated>
     
@@ -319,19 +319,19 @@
     
     
     
-    <category term="爬虫" scheme="http://blog.jeanhua.cn/categories/%E7%88%AC%E8%99%AB/"/>
+    <category term="爬虫" scheme="http://www.blog.jeanhua.cn/categories/%E7%88%AC%E8%99%AB/"/>
     
     
-    <category term="python" scheme="http://blog.jeanhua.cn/tags/python/"/>
+    <category term="python" scheme="http://www.blog.jeanhua.cn/tags/python/"/>
     
-    <category term="爬虫" scheme="http://blog.jeanhua.cn/tags/%E7%88%AC%E8%99%AB/"/>
+    <category term="爬虫" scheme="http://www.blog.jeanhua.cn/tags/%E7%88%AC%E8%99%AB/"/>
     
   </entry>
   
   <entry>
     <title>python爬虫获取百度热搜</title>
-    <link href="http://blog.jeanhua.cn/2024/06/15/f349664957c7/"/>
-    <id>http://blog.jeanhua.cn/2024/06/15/f349664957c7/</id>
+    <link href="http://www.blog.jeanhua.cn/2024/06/15/f349664957c7/"/>
+    <id>http://www.blog.jeanhua.cn/2024/06/15/f349664957c7/</id>
     <published>2024-06-15T07:13:00.000Z</published>
     <updated>2024-09-18T00:27:06.482Z</updated>
     
@@ -346,19 +346,19 @@
     
     
     
-    <category term="爬虫" scheme="http://blog.jeanhua.cn/categories/%E7%88%AC%E8%99%AB/"/>
+    <category term="爬虫" scheme="http://www.blog.jeanhua.cn/categories/%E7%88%AC%E8%99%AB/"/>
     
     
-    <category term="python" scheme="http://blog.jeanhua.cn/tags/python/"/>
+    <category term="python" scheme="http://www.blog.jeanhua.cn/tags/python/"/>
     
-    <category term="爬虫" scheme="http://blog.jeanhua.cn/tags/%E7%88%AC%E8%99%AB/"/>
+    <category term="爬虫" scheme="http://www.blog.jeanhua.cn/tags/%E7%88%AC%E8%99%AB/"/>
     
   </entry>
   
   <entry>
     <title>python爬虫入门</title>
-    <link href="http://blog.jeanhua.cn/2024/06/15/347ddd515696/"/>
-    <id>http://blog.jeanhua.cn/2024/06/15/347ddd515696/</id>
+    <link href="http://www.blog.jeanhua.cn/2024/06/15/347ddd515696/"/>
+    <id>http://www.blog.jeanhua.cn/2024/06/15/347ddd515696/</id>
     <published>2024-06-15T06:36:00.000Z</published>
     <updated>2024-12-08T12:32:19.367Z</updated>
     
@@ -371,19 +371,19 @@
     
     
     
-    <category term="爬虫" scheme="http://blog.jeanhua.cn/categories/%E7%88%AC%E8%99%AB/"/>
+    <category term="爬虫" scheme="http://www.blog.jeanhua.cn/categories/%E7%88%AC%E8%99%AB/"/>
     
     
-    <category term="python" scheme="http://blog.jeanhua.cn/tags/python/"/>
+    <category term="python" scheme="http://www.blog.jeanhua.cn/tags/python/"/>
     
-    <category term="爬虫" scheme="http://blog.jeanhua.cn/tags/%E7%88%AC%E8%99%AB/"/>
+    <category term="爬虫" scheme="http://www.blog.jeanhua.cn/tags/%E7%88%AC%E8%99%AB/"/>
     
   </entry>
   
   <entry>
     <title>解决安装cuda时vs报错MSB3721的问题</title>
-    <link href="http://blog.jeanhua.cn/2024/06/03/c99c3826bf5e/"/>
-    <id>http://blog.jeanhua.cn/2024/06/03/c99c3826bf5e/</id>
+    <link href="http://www.blog.jeanhua.cn/2024/06/03/c99c3826bf5e/"/>
+    <id>http://www.blog.jeanhua.cn/2024/06/03/c99c3826bf5e/</id>
     <published>2024-06-03T01:03:00.000Z</published>
     <updated>2024-09-21T05:30:21.785Z</updated>
     
@@ -401,19 +401,19 @@
     
     
     
-    <category term="方法论" scheme="http://blog.jeanhua.cn/categories/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
+    <category term="方法论" scheme="http://www.blog.jeanhua.cn/categories/%E6%96%B9%E6%B3%95%E8%AE%BA/"/>
     
     
-    <category term="visual studio" scheme="http://blog.jeanhua.cn/tags/visual-studio/"/>
+    <category term="visual studio" scheme="http://www.blog.jeanhua.cn/tags/visual-studio/"/>
     
-    <category term="cuda" scheme="http://blog.jeanhua.cn/tags/cuda/"/>
+    <category term="cuda" scheme="http://www.blog.jeanhua.cn/tags/cuda/"/>
     
   </entry>
   
   <entry>
     <title>博客markdown内嵌网页</title>
-    <link href="http://blog.jeanhua.cn/2024/04/27/0b07f4fdbced/"/>
-    <id>http://blog.jeanhua.cn/2024/04/27/0b07f4fdbced/</id>
+    <link href="http://www.blog.jeanhua.cn/2024/04/27/0b07f4fdbced/"/>
+    <id>http://www.blog.jeanhua.cn/2024/04/27/0b07f4fdbced/</id>
     <published>2024-04-27T10:31:00.000Z</published>
     <updated>2024-09-18T00:26:33.823Z</updated>
     
@@ -433,14 +433,14 @@
     
     
     
-    <category term="markdown" scheme="http://blog.jeanhua.cn/tags/markdown/"/>
+    <category term="markdown" scheme="http://www.blog.jeanhua.cn/tags/markdown/"/>
     
   </entry>
   
   <entry>
     <title>高等数学笔记</title>
-    <link href="http://blog.jeanhua.cn/2024/04/26/b8db80ffa065/"/>
-    <id>http://blog.jeanhua.cn/2024/04/26/b8db80ffa065/</id>
+    <link href="http://www.blog.jeanhua.cn/2024/04/26/b8db80ffa065/"/>
+    <id>http://www.blog.jeanhua.cn/2024/04/26/b8db80ffa065/</id>
     <published>2024-04-26T13:57:00.000Z</published>
     <updated>2024-09-12T14:53:02.572Z</updated>
     
@@ -456,19 +456,19 @@
     
     
     
-    <category term="高等数学" scheme="http://blog.jeanhua.cn/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
+    <category term="高等数学" scheme="http://www.blog.jeanhua.cn/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
     
     
-    <category term="高等数学" scheme="http://blog.jeanhua.cn/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
+    <category term="高等数学" scheme="http://www.blog.jeanhua.cn/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
     
-    <category term="笔记" scheme="http://blog.jeanhua.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="http://www.blog.jeanhua.cn/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
     <title>JHMG游戏引擎</title>
-    <link href="http://blog.jeanhua.cn/2024/04/26/5636a234bad4/"/>
-    <id>http://blog.jeanhua.cn/2024/04/26/5636a234bad4/</id>
+    <link href="http://www.blog.jeanhua.cn/2024/04/26/5636a234bad4/"/>
+    <id>http://www.blog.jeanhua.cn/2024/04/26/5636a234bad4/</id>
     <published>2024-04-26T12:32:00.000Z</published>
     <updated>2024-09-12T14:51:28.598Z</updated>
     
@@ -485,16 +485,16 @@
     
     
     
-    <category term="游戏引擎" scheme="http://blog.jeanhua.cn/tags/%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E/"/>
+    <category term="游戏引擎" scheme="http://www.blog.jeanhua.cn/tags/%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E/"/>
     
-    <category term="大作业" scheme="http://blog.jeanhua.cn/tags/%E5%A4%A7%E4%BD%9C%E4%B8%9A/"/>
+    <category term="大作业" scheme="http://www.blog.jeanhua.cn/tags/%E5%A4%A7%E4%BD%9C%E4%B8%9A/"/>
     
   </entry>
   
   <entry>
     <title>GK320刷机</title>
-    <link href="http://blog.jeanhua.cn/2024/04/26/238a8dd14134/"/>
-    <id>http://blog.jeanhua.cn/2024/04/26/238a8dd14134/</id>
+    <link href="http://www.blog.jeanhua.cn/2024/04/26/238a8dd14134/"/>
+    <id>http://www.blog.jeanhua.cn/2024/04/26/238a8dd14134/</id>
     <published>2024-04-26T12:19:00.000Z</published>
     <updated>2024-09-12T14:51:06.211Z</updated>
     
@@ -510,12 +510,12 @@
     
     
     
-    <category term="笔记" scheme="http://blog.jeanhua.cn/categories/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="http://www.blog.jeanhua.cn/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="刷机" scheme="http://blog.jeanhua.cn/tags/%E5%88%B7%E6%9C%BA/"/>
+    <category term="刷机" scheme="http://www.blog.jeanhua.cn/tags/%E5%88%B7%E6%9C%BA/"/>
     
-    <category term="工具" scheme="http://blog.jeanhua.cn/tags/%E5%B7%A5%E5%85%B7/"/>
+    <category term="工具" scheme="http://www.blog.jeanhua.cn/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
