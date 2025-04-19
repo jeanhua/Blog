@@ -5,8 +5,8 @@
   <meta name="Volantis" content="5.8.0">
   <meta charset="utf-8">
   <!-- SEO相关 -->
-  <meta name="robots" content="noindex,follow">
-  <link rel="canonical" href="https://www.blog.jeanhua.cn/categories/c语言/"/>
+  
+  <link rel="canonical" href="https://www.blog.jeanhua.cn/2025/04/19/5b7699edf893/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -35,19 +35,22 @@
   <!-- feed -->
       <link rel="alternate" href="/atom.xml" title="jeanhua's blog" type="application/atom+xml">
   <!-- 页面元数据 -->
-  <title>分类：C语言 - jeanhua's blog</title>
-  <meta name="keywords" content="blog">
+  <title>【专栏】C语言指针是什么？ - jeanhua's blog</title>
+  <meta name="keywords" content="C语言,编程教程,blog">
   <meta desc name="description" content="欢迎来到我的博客，本项目采用hexo框架 - jeanhua - jeanhua's blog">
   
-<meta property="og:type" content="website">
-<meta property="og:title" content="jeanhua&#39;s blog">
-<meta property="og:url" content="https://www.blog.jeanhua.cn/categories/C%E8%AF%AD%E8%A8%80/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【专栏】C语言指针是什么？">
+<meta property="og:url" content="https://www.blog.jeanhua.cn/2025/04/19/5b7699edf893/index.html">
 <meta property="og:site_name" content="jeanhua&#39;s blog">
-<meta property="og:description" content="欢迎来到我的博客，本项目采用hexo框架">
+<meta property="og:description" content="什么是指针？初级理解简单来说，指针就是存储内存地址的变量。就像普通变量存储数据值一样，指针变量存储的是内存中某个位置的地址。 12int var &#x3D; 10;    &#x2F;&#x2F; 普通整型变量int *ptr &#x3D; &amp;var; &#x2F;&#x2F; 指针变量，存储var的地址  在这段代码中：• &amp;var 表示获取变量var的内存地址 • int * 声明了一个指向整型的指针变量 • ptr 现在存储了var">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+<meta property="article:published_time" content="2025-04-19T03:29:49.000Z">
+<meta property="article:modified_time" content="2025-04-19T03:42:04.509Z">
 <meta property="article:author" content="jeanhua">
-<meta property="article:tag" content="blog">
+<meta property="article:tag" content="C语言">
+<meta property="article:tag" content="编程教程">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
   <style>
@@ -1745,7 +1748,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1744992589950),
+    lastupdate: new Date(1745034225146),
     sidebar: {
       for_page: ["blogger","category","tagcloud","webinfo"],
       for_post: ["toc"],
@@ -2442,7 +2445,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-      <div id="none" class='cover-wrapper  dock' style="display: none;">
+      <div id="none" class='cover-wrapper post dock' style="display: none;">
         
   <div class='cover-bg lazyload placeholder' data-bg="https://www.gallery.jeanhua.cn/d/%E5%A4%A9%E7%BF%BC%E7%BD%91%E7%9B%98%E5%AE%A2%E6%88%B7%E7%AB%AF/%E5%9B%BE%E5%BA%8A/blog_bk.jpg?sign=HqcnF_Ty9elcTOeK7O6O9ZcHl1Ij9ReXTWP80UQArWs=:0"></div>
 
@@ -2516,25 +2519,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div id="safearea">
         <div class="body-wrapper">
           
-
 <div id="l_main" class=''>
-  
-    
-      
-  <section class="post-list">
-    
-      
-        
-          
-        
-      
-    
-    
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="https://www.blog.jeanhua.cn/2024/11/02/af6db4fbaa29/">
+  <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
+  <link itemprop="mainEntityOfPage" href="https://www.blog.jeanhua.cn/2025/04/19/5b7699edf893/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="jeanhua's blog">
   </span>
@@ -2543,66 +2530,338 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <meta itemprop="description" content="欢迎来到我的博客，本项目采用hexo框架">
   </span>
   
-  
+
+
   
     <span hidden>
       <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
     </span>
   
-  
+  <div class="article-meta" id="top">
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2024/11/02/af6db4fbaa29/"  itemprop="url">
-        浅谈C语言的scanf
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
     
-      <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><blockquote>
-<p>最近看到小登的作业，计算输入的数学表达式，只包含加减乘除，不考虑优先级，感觉的好像要用到字符串分割，但是作为新生的作业，应该不会涉及这么难的过程。</p>
-</blockquote>
+    
+      <h1 class="title" itemprop="name headline">
+        【专栏】C语言指针是什么？
+      </h1>
+      <div class='new-meta-box'>
+        
+          
+            
+<div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <a itemprop="url" class='author' href="/" rel="nofollow">
+    <img itemprop="image" src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/apple-touch-icon.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/apple-touch-icon.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+    <p itemprop="name">jeanhua</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+  <div class='new-meta-item category'>
+    <i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i>
+    <a class="category-link" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/">编程教程</a><span class="sep"></span><a class="category-link" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/C%E8%AF%AD%E8%A8%80/">C语言</a>
+    
+      <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+        <a href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/" itemprop="url"><span itemprop="name">编程教程</span></a>
+      </span>
+    
+      <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+        <a href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/C%E8%AF%AD%E8%A8%80/" itemprop="url"><span itemprop="name">C语言</span></a>
+      </span>
     
   </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2024-11-02T20:43:11+08:00">2024-11-02</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/C%E8%AF%AD%E8%A8%80/">C语言</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/C%E8%AF%AD%E8%A8%80/" itemprop="url"><span itemprop="name">C语言</span></a>
-            </span>
+
+
           
         
+          
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2025-04-19T11:29:49+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2025年4月19日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+
+
+          
+        
+        <!-- Custom Files topMeta begin-->
+        
+        <!-- Custom Files topMeta end-->
       </div>
+    
+  </div>
+
+
+  <div id="layoutHelper-page-plugins"></div>
+  <div id="post-body" itemprop="articleBody">
+    <h2 id="什么是指针？"><a href="#什么是指针？" class="headerlink" title="什么是指针？"></a>什么是指针？</h2><h3 id="初级理解"><a href="#初级理解" class="headerlink" title="初级理解"></a>初级理解</h3><p>简单来说，指针就是存储内存地址的变量。就像普通变量存储数据值一样，指针变量存储的是内存中某个位置的地址。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> var = <span class="number">10</span>;    <span class="comment">// 普通整型变量</span></span><br><span class="line"><span class="type">int</span> *ptr = &amp;var; <span class="comment">// 指针变量，存储var的地址</span></span><br></pre></td></tr></table></figure>
+
+<p>在这段代码中：<br>• <code>&amp;var</code> 表示获取变量<code>var</code>的内存地址</p>
+<p>• <code>int *</code> 声明了一个指向整型的指针变量</p>
+<p>• <code>ptr</code> 现在存储了<code>var</code>的内存地址</p>
+<p>指针的基本操作</p>
+<ol>
+<li>声明指针</li>
+</ol>
+<p>指针的声明需要指定它所指向的数据类型：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> *int_ptr;    <span class="comment">// 指向整型的指针</span></span><br><span class="line"><span class="type">float</span> *float_ptr; <span class="comment">// 指向浮点数的指针</span></span><br><span class="line"><span class="type">char</span> *char_ptr;  <span class="comment">// 指向字符的指针</span></span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>取地址操作符(&amp;)</li>
+</ol>
+<p><code>&amp;</code>操作符用于获取变量的内存地址：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> num = <span class="number">5</span>;</span><br><span class="line"><span class="type">int</span> *p = &amp;num; <span class="comment">// p现在存储了num的地址</span></span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>解引用操作符(*)</li>
+</ol>
+<p><code>*</code>操作符用于访问指针所指向的值：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>, *p); <span class="comment">// 输出5，即num的值</span></span><br></pre></td></tr></table></figure>
+
+<p>指针的用途</p>
+<p>指针在C语言中有多种重要用途：</p>
+<ol>
+<li>动态内存分配：通过<code>malloc</code>、<code>calloc</code>等函数动态分配内存</li>
+<li>数组操作：数组名本质上就是一个指针</li>
+<li>函数参数传递：通过指针可以实现”按引用传递”</li>
+<li>数据结构实现：链表、树等数据结构都需要使用指针</li>
+<li>字符串处理：C语言中的字符串本质上是字符指针</li>
+</ol>
+<p>指针与数组的关系</p>
+<p>在C语言中，数组名实际上就是一个指向数组第一个元素的指针：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> arr[<span class="number">5</span>] = &#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>&#125;;</span><br><span class="line"><span class="type">int</span> *p = arr; <span class="comment">// 等同于 int *p = &amp;arr[0]</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>, *(p+<span class="number">2</span>)); <span class="comment">// 输出3，即arr[2]</span></span><br></pre></td></tr></table></figure>
+
+<p>多级指针</p>
+<p>指针可以指向另一个指针，形成多级指针：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> var = <span class="number">10</span>;</span><br><span class="line"><span class="type">int</span> *ptr = &amp;var;</span><br><span class="line"><span class="type">int</span> **pptr = &amp;ptr;</span><br><span class="line"></span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>, **pptr); <span class="comment">// 输出10</span></span><br></pre></td></tr></table></figure>
+
+<p>指针的常见错误</p>
+<p>初学者在使用指针时常犯的错误包括：</p>
+<ol>
+<li>野指针：未初始化的指针</li>
+<li>空指针解引用：对NULL指针进行解引用</li>
+<li>内存泄漏：分配的内存没有释放</li>
+<li>指针越界：访问超出分配的内存范围</li>
+</ol>
+<p>指针的高级应用</p>
+<p>随着对指针理解的深入，你可以看到更高级的指针应用：</p>
+<ol>
+<li>函数指针：指向函数的指针</li>
+<li>结构体指针：指向结构体的指针</li>
+<li>指针数组：存储指针的数组</li>
+<li>回调函数：通过函数指针实现</li>
+</ol>
+<blockquote>
+<p>指针是C语言的核心概念，虽然初学时可能有些困难，但它是值得投入时间掌握的技能。理解指针不仅能帮助你写出更好的C代码，还能加深你对计算机内存管理的理解。记住：指针就是内存地址，而内存地址就是访问数据的门户。</p>
+</blockquote>
+<p>练习建议</p>
+<ol>
+<li>尝试编写简单的指针操作程序</li>
+<li>实现一个动态数组</li>
+<li>练习使用指针操作字符串</li>
+<li>尝试实现一个简单的链表结构</li>
+</ol>
+<h2 id="深入理解"><a href="#深入理解" class="headerlink" title="深入理解"></a>深入理解</h2><p><strong>指针变量是存储指针的变量，指针是内存地址这个实际是不严谨的，尽管很多的教材书籍，视频教材等都这么说，只是让初学者更加简单的理解，但是你后面学习计算机组成原理和操作系统后就会明白，指针并不等同于内存地址，而是有一个相应的映射</strong></p>
+<p>或者说：</p>
+<p><strong>高级语言高级在哪？就是它把底层的东西通过抽象，提供一个简单的接口，人们不用去管它实际是怎么工作的，指针就是如此，它本质是内存地址的抽象，C语言通过指针操作，对内存进行访问控制</strong></p>
+
+  </div>
+  
+  
+    
+    <div class='footer'>
+       <!-- 参考资料、相关资料等 -->
       
-        <div>
-          <a class='readmore' href='/2024/11/02/af6db4fbaa29/' itemprop="url">
-            阅读全文
-          </a>
+       <!-- 相关文章 -->
+      
+      <!-- 版权声明组件 -->
+      
+        
+          
+          <div class="copyright license">
+            <div class="license-title">【专栏】C语言指针是什么？</div>
+            <div class="license-link"><a href="https://www.blog.jeanhua.cn/2025/04/19/5b7699edf893/">https://www.blog.jeanhua.cn/2025/04/19/5b7699edf893/</a>
+            </div>
+            <div class="license-meta">
+              <div class="license-meta-item">
+                <div class="license-meta-title">本文作者</div>
+                <div class="license-meta-text">jeanhua</div>
+              </div>
+              <div class="license-meta-item">
+                <div class="license-meta-title">发布于</div>
+                <div class="license-meta-text">2025年4月19日</div>
+              </div>
+              
+              
+              <div class="license-meta-item">
+                <div class="license-meta-title">许可协议</div>
+                <div class="license-meta-text"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh#" target="_blank">CC BY-NC-SA 4.0</a></div>
+              </div>
+            </div>
+            <div class="license-statement">署名-非商业性使用-相同方式共享 4.0 国际。</div>
+          </div>
+        
+      
+      <!-- 打赏组件 -->
+      
+        <div class='donate'>
+          <div class='imgs'>
+            
+              <img src='https://www.blog.jeanhua.cn/image/咖啡赞赏.png'>
+            
+              <img src='https://www.blog.jeanhua.cn/image/wxpay.png'>
+            
+          </div>
         </div>
       
     </div>
   
+  
+    
 
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2025-04-19T11:42:04+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：2025年4月19日</p>
+  </a>
 </div>
 
-          </div>
         
       
-    
-  </section>
+        
+          
   
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/C%E8%AF%AD%E8%A8%80/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>C语言</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>编程教程</p></a></div>
+  <span hidden itemprop="keywords">C语言 编程教程</span>
+
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
     
+      
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.blog.jeanhua.cn/2025/04/19/5b7699edf893/&title=【专栏】C语言指针是什么？ - jeanhua's blog&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qq.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qq.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://www.blog.jeanhua.cn/2025/04/19/5b7699edf893/&title=【专栏】C语言指针是什么？ - jeanhua's blog&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qzone.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qzone.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.blog.jeanhua.cn/2025/04/19/5b7699edf893/&title=【专栏】C语言指针是什么？ - jeanhua's blog&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/weibo.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/weibo.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        
+        <div class='hoverbox'>
+          <a class='share'><img src="https://gcore.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png" class="lazyload" data-srcset="https://gcore.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a>
+          <div class='target'>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARgAAAEYCAAAAACi5bZQAAAC8klEQVR42u3aQVLDMAwF0N7/0nCAMhPrSyGoPO8aUmO/bv5Ien1ZP64XAjBgwIABA2YNzCtcbxtevJd+/+r96j6X5wQDBgwYMGDArIM5DkCHB+0Cdf9veh8wYMCAAQMGzF6Y06BWDVTVg8cBrXsfMGDAgAEDBgyYoX1Pgx4YMGDAgAEDBszUBaqFom6DDwwYMGDAgAEDptygCgtTaeOuGvAe60SCAQMGDBgwYH4NZrrB9fTn+D5gwIABAwYMmDUw3dVtjKUNvKlC2dt+YMCAAQMGDJg1MGlAmipgpQWuFPbyBwMDBgwYMGDArIWpNtpS4Lsbeel5wIABAwYMGDB7YK42rL5X/Xv6fgp4HPDAgAEDBgwYMGtgTgNSNxhWg2MKlBauwIABAwYMGDB7YMoNqWbgSoNlN4geQ4IBAwYMGDBg1sGkgasa6KqNturF24UvMGDAgAEDBsxamHSgJx0smhpYGmsYggEDBgwYMGDWwFQbbdXANN2ISxtr4xNVYMCAAQMGDJjHYU4LO2kharrA1R0YutwPDBgwYMCAAfMxMGkBaaqQlAa6KiAYMGDAgAEDZi9Mt1CU7nf6A6RBtF2oAgMGDBgwYMD8eZipAZx0ILl7wW4ABAMGDBgwYMDsheke9K6GW7Ug1h2IAgMGDBgwYMDsg4kLO+GaCnRTz8GAAQMGDBgwe2G6gzxpQSstXJ0GvNPzgAEDBgwYMGD2w0wVhrrPqwNEYw0+MGDAgAEDBsx6mG6hKW3EdQNkFQgMGDBgwIABsxemu+6CrQa67vnAgAEDBgwYMPtguoM/aYGrGuTSQafyIBQYMGDAgAEDZh3MdKDrFrKqQXAMEgwYMGDAgAGzFmYqQE3tm148buCBAQMGDBgwYP4dzF2NseOBn/D92wMeGDBgwIABA2YNzNS+04Hu8YAHBgwYMGDAgLkdptoI6wav9PlU4w4MGDBgwIABsx9mOjhNDSRNDRQd7w8GDBgwYMCAWQNjgQEDBgwYMGCWrW9Zc2WOYuZS3QAAAABJRU5ErkJggg==">
+          </div>
+        </div>
+      
+    
+      
+    
+  </div>
+</div>
+
+
+
+        
+      
+    </div>
+    <!-- Custom Files bottomMeta begin -->
+    
+    <!-- Custom Files bottomMeta end -->
+  </div>
+
+
+  
+  
+
+  
+    <div class="prev-next">
+      
+      
+        <a class='next' href='/2025/04/19/7f3162946eaa/'>
+          <p class='title'>【专栏】C语言字符串输入输出<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>
+C语言字符串的输入输出是一个值得探讨的东西
+
+简单的字符串输入输出
+123char str[20];scanf(&quot;%s&quot;, str);printf(&quot;%s&quo...</p>
+        </a>
+      
+    </div>
+  
+  <!-- Custom Files postEnd begin-->
+  
+  <!-- Custom Files postEnd end-->
+</article>
+
+
   
 
 
+  <article class="post white-box shadow floatable blur" id="comments">
+    <span hidden>
+      <meta itemprop="discussionUrl" content="/2025/04/19/5b7699edf893/index.html#comments">
+    </span>
+    <p ct><i class='fa-solid fa-comments'></i> 评论</p>
     
-  
+
+    <div id="layoutHelper-comments"></div>
+
+  </article>
+
+
+
+
+
+
 </div>
 <aside id='l_side' itemscope itemtype="http://schema.org/WPSideBar">
   
@@ -2611,211 +2870,52 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       
-<section class="widget blogger desktop mobile pjax">
-  <div class='content'>
-    
-      
-        <a class='avatar flat-box rectangle' href='/about/'>
-          <img no-lazy src='https://q1.qlogo.cn/g?b=qq&nk=2207739460&src_uin=www.jlwz.cn&s=0'/>
-        </a>
-      
-    
-    
-      <div class='text'>
-        
-        
-        
-          <p><span id="jinrishici-sentence">jeanhua's blog</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-        
-      </div>
-    
-    
-      <div class="social-wrapper">
-        
-          
-            <a href="/atom.xml"
-              class="social fa-solid fa-rss flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="mailto:jeanhua_official@outlook.com"
-              class="social fa-solid fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://github.com/jeanhua"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://music.163.com/#/playlist?id=5263725127"
-              class="social fa-solid fa-headphones-alt flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-      </div>
-    
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget category desktop pjax">
-    
-  <header>
-    
-      <a href='/categories/'><i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <ul class="entry navigation">
-        
-          <li><a class="flat-box"
-            title="/categories/C/" href="/categories/C/"
-            active-action="action-categoriesC"
-            ><div class='name'>C++</div><div class='badge'>(1)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/C%E8%AF%AD%E8%A8%80/" href="/categories/C%E8%AF%AD%E8%A8%80/"
-            active-action="action-categoriesCE8AFADE8A880"
-            ><div class='name'>C语言</div><div class='badge'>(1)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E6%96%B9%E6%B3%95%E8%AE%BA/" href="/categories/%E6%96%B9%E6%B3%95%E8%AE%BA/"
-            active-action="action-categoriesE696B9E6B395E8AEBA"
-            ><div class='name'>方法论</div><div class='badge'>(2)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E7%88%AC%E8%99%AB/" href="/categories/%E7%88%AC%E8%99%AB/"
-            active-action="action-categoriesE788ACE899AB"
-            ><div class='name'>爬虫</div><div class='badge'>(3)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/"
-            active-action="action-categoriesE7BC96E7A88BE69599E7A88B"
-            ><div class='name'>编程教程</div><div class='badge'>(2)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E9%9A%8F%E7%AC%94/" href="/categories/%E9%9A%8F%E7%AC%94/"
-            active-action="action-categoriesE99A8FE7AC94"
-            ><div class='name'>随笔</div><div class='badge'>(5)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" href="/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/"
-            active-action="action-categoriesE9AB98E7AD89E695B0E5ADA6"
-            ><div class='name'>高等数学</div><div class='badge'>(1)</div></a></li>
-        
-      </ul>
-    </div>
-  </section>
-
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget tagcloud desktop mobile pjax">
-    
-  <header>
-    
-      <a href='/tags/'><i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <a href="/tags/C/" style="font-size: 14px; color: #999">C#</a> <a href="/tags/C/" style="font-size: 17.33px; color: #828282">C++</a> <a href="/tags/C%E8%AF%AD%E8%A8%80/" style="font-size: 17.33px; color: #828282">C语言</a> <a href="/tags/Vue/" style="font-size: 14px; color: #999">Vue</a> <a href="/tags/aspnet/" style="font-size: 14px; color: #999">aspnet</a> <a href="/tags/cuda/" style="font-size: 14px; color: #999">cuda</a> <a href="/tags/flutter/" style="font-size: 17.33px; color: #828282">flutter</a> <a href="/tags/markdown/" style="font-size: 14px; color: #999">markdown</a> <a href="/tags/python/" style="font-size: 24px; color: #555">python</a> <a href="/tags/ssh/" style="font-size: 14px; color: #999">ssh</a> <a href="/tags/visual-studio/" style="font-size: 17.33px; color: #828282">visual studio</a> <a href="/tags/%E4%BB%A3%E7%A0%81/" style="font-size: 14px; color: #999">代码</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 14px; color: #999">博客</a> <a href="/tags/%E5%90%90%E6%A7%BD/" style="font-size: 14px; color: #999">吐槽</a> <a href="/tags/%E6%84%9F%E6%83%B3/" style="font-size: 14px; color: #999">感想</a> <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/" style="font-size: 24px; color: #555">服务器</a> <a href="/tags/%E6%A0%A1%E5%9B%AD%E9%9B%86%E5%B8%82/" style="font-size: 14px; color: #999">校园集市</a> <a href="/tags/%E7%88%AC%E8%99%AB/" style="font-size: 20.67px; color: #6c6c6c">爬虫</a> <a href="/tags/%E7%AC%94%E8%AE%B0/" style="font-size: 14px; color: #999">笔记</a> <a href="/tags/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/" style="font-size: 17.33px; color: #828282">编程教程</a> <a href="/tags/%E7%BD%91%E7%AB%99/" style="font-size: 17.33px; color: #828282">网站</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/" style="font-size: 14px; color: #999">计算机</a> <a href="/tags/%E8%BD%AF%E4%BB%B6/" style="font-size: 14px; color: #999">软件</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 14px; color: #999">随笔</a> <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2/" style="font-size: 14px; color: #999">高等教育</a> <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" style="font-size: 14px; color: #999">高等数学</a>
-    </div>
-  </section>
-
-
-    
-  
-
-  
-    
-    
-      
-<section class="widget desktop pjax">
-  
-  <header>
-    
-      <i class="fa-solid fa-award fa-fw" aria-hidden="true"></i><span class='name'>站点信息</span>
-    
-  </header>
-
-
-  <div class='content'>
-    <div class="webinfo">
-      
-        <div class="webinfo-item">
-          <div>文章数目：</div>
-          <div>21 篇</div>
-        </div>
-      
-
-      
-        <div class="webinfo-item">
-          <div>已运行时间：</div>
-          <div id="webinfo-runtime-count"></div>
-        </div>
-      
-
-
-      
-
-      
-
-      
-
-      
-        <div class="webinfo-item">
-          <div>最后活动时间：</div>
-          <div id="last-update-show">2025-04-19 日</div>
-        </div>
-      
-    </div>
-  </div>
-</section>
-
     
   
 
 
 <div class="widget-sticky pjax">
 
+  
+  
+
+
+  <section class="widget toc-wrapper desktop mobile " id="toc-div" >
+    
+  <header>
+    
+      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+    <div class='content'>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF%E6%8C%87%E9%92%88%EF%BC%9F"><span class="toc-text">什么是指针？</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9D%E7%BA%A7%E7%90%86%E8%A7%A3"><span class="toc-text">初级理解</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3"><span class="toc-text">深入理解</span></a></li></ol>
+    </div>
+  </section>
+
+  
+
 </div>
 
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
@@ -2839,13 +2939,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </aside>
 
 
+
           <!--此文件用来存放一些不方便取值的变量-->
 <!--思路大概是将值藏到重加载的区域内-->
 
 <pjax>
 <script>
   window.pdata={}
-  pdata.ispage=false;
+  pdata.ispage=true;
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   pdata.commentConfig={};
@@ -3332,7 +3433,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"jeanhua's blog","url":"https://www.blog.jeanhua.cn/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"jeanhua","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://www.blog.jeanhua.cn/","sameAs":["https://github.com/volantis-x"],"description":"欢迎来到我的博客，本项目采用hexo框架"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://www.blog.jeanhua.cn/","name":"jeanhua's blog"}},{"@type":"ListItem","position":2,"item":{"@id":"https://www.blog.jeanhua.cn/categories/C语言/","name":"C语言"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"jeanhua's blog","url":"https://www.blog.jeanhua.cn/","keywords":"blog","description":"欢迎来到我的博客，本项目采用hexo框架","author":{"@type":"Person","name":"jeanhua","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://www.blog.jeanhua.cn/","description":"欢迎来到我的博客，本项目采用hexo框架"},"publisher":{"@type":"Organization","name":"jeanhua's blog","url":"https://www.blog.jeanhua.cn/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://www.blog.jeanhua.cn?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"欢迎来到我的博客，本项目采用hexo框架","inLanguage":["zh-CN","en","zh-TW","default"],"mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"jeanhua","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://www.blog.jeanhua.cn/"},"publisher":{"@type":"Organization","name":"jeanhua's blog","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"jeanhua's blog","url":"https://www.blog.jeanhua.cn/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"jeanhua","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://www.blog.jeanhua.cn/","sameAs":["https://github.com/volantis-x"],"description":"欢迎来到我的博客，本项目采用hexo框架"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://www.blog.jeanhua.cn/","name":"jeanhua's blog"}},{"@type":"ListItem","position":2,"item":{"@id":"https://www.blog.jeanhua.cn/categories/编程教程/","name":"编程教程"}},{"@type":"ListItem","position":2,"item":{"@id":"https://www.blog.jeanhua.cn/categories/编程教程/C语言/","name":"C语言"}},{"@type":"ListItem","position":3,"item":{"@id":"https://www.blog.jeanhua.cn/2025/04/19/5b7699edf893/","name":"【专栏】C语言指针是什么？"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"jeanhua's blog","url":"https://www.blog.jeanhua.cn/","keywords":"blog","description":"欢迎来到我的博客，本项目采用hexo框架","author":{"@type":"Person","name":"jeanhua","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://www.blog.jeanhua.cn/","description":"欢迎来到我的博客，本项目采用hexo框架"},"publisher":{"@type":"Organization","name":"jeanhua's blog","url":"https://www.blog.jeanhua.cn/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"https://www.blog.jeanhua.cn?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"【专栏】C语言指针是什么？","description":"欢迎来到我的博客，本项目采用hexo框架","inLanguage":["zh-CN","en","zh-TW","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.blog.jeanhua.cn/2025/04/19/5b7699edf893/"},"author":{"@type":"Person","name":"jeanhua","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://www.blog.jeanhua.cn/"},"publisher":{"@type":"Organization","name":"jeanhua's blog","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://www.blog.jeanhua.cn/2025/04/19/5b7699edf893/","wordCount":0,"datePublished":"2025-04-19T03:29:49.000Z","dateModified":"2025-04-19T03:42:04.509Z","articleSection":"编程教程","keywords":"C语言,编程教程","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
