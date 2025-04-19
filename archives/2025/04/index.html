@@ -1745,7 +1745,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1745036046144),
+    lastupdate: new Date(1745059464360),
     sidebar: {
       for_page: ["blogger","category","tagcloud","webinfo"],
       for_post: ["toc"],
@@ -2535,9 +2535,553 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         
           
         
+          
+        
+          
+        
+          
+        
+          
+        
       
     
     
+      
+        
+          <div class='post-wrapper'>
+            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
+  <link itemprop="mainEntityOfPage" href="https://www.blog.jeanhua.cn/2025/04/19/596fa2eeb20e/">
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="jeanhua's blog">
+  </span>
+  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
+    <meta itemprop="name" content="jeanhua's blog">
+    <meta itemprop="description" content="欢迎来到我的博客，本项目采用hexo框架">
+  </span>
+  
+  
+  
+    <span hidden>
+      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+    </span>
+  
+  
+    
+    <h2 class="article-title"  itemprop="name headline">
+      <a href="/2025/04/19/596fa2eeb20e/"  itemprop="url">
+        【专栏】7.python面向对象编程（OOP）
+      </a>
+    </h2>
+  
+  <div class='md article-desc' itemprop="articleBody">
+    
+      
+        Python面向对象编程（OOP）一、类与对象基础
+类定义与实例化
+
+1234567891011121314151617181920212223class Dog:    &quot;&quot;&quot;Dog类的简单示例&quot;&quot;&quot;        # 类属性（所有实例共享）    species = &quot;Canis familiaris&quot;   ...
+      
+    
+  </div>
+  
+    <div class='meta-v3' line_style='solid'>
+      <div>
+        
+        <time itemprop="dateCreated datePublished" datetime="2025-04-19T18:10:16+08:00">2025-04-19</time>
+        
+          <span class="dot"></span>
+          <a class="category-link" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/">编程教程</a><span class="sep"></span><a class="category-link" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/python/">python</a>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/" itemprop="url"><span itemprop="name">编程教程</span></a>
+            </span>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/python/" itemprop="url"><span itemprop="name">python</span></a>
+            </span>
+          
+        
+      </div>
+      
+        <div>
+          <a class='readmore' href='/2025/04/19/596fa2eeb20e/' itemprop="url">
+            阅读全文
+          </a>
+        </div>
+      
+    </div>
+  
+
+</div>
+
+          </div>
+        
+      
+        
+          <div class='post-wrapper'>
+            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
+  <link itemprop="mainEntityOfPage" href="https://www.blog.jeanhua.cn/2025/04/19/fbac5f0e0270/">
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="jeanhua's blog">
+  </span>
+  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
+    <meta itemprop="name" content="jeanhua's blog">
+    <meta itemprop="description" content="欢迎来到我的博客，本项目采用hexo框架">
+  </span>
+  
+  
+  
+    <span hidden>
+      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+    </span>
+  
+  
+    
+    <h2 class="article-title"  itemprop="name headline">
+      <a href="/2025/04/19/fbac5f0e0270/"  itemprop="url">
+        【专栏】6.python文件操作与异常处理
+      </a>
+    </h2>
+  
+  <div class='md article-desc' itemprop="articleBody">
+    
+      
+        Python文件操作与异常处理一、文件基础操作
+文件打开与关闭
+
+使用open()函数打开文件，完成后必须关闭：
+1234567891011# 传统方式（需要手动关闭）file = open(&#x27;example.txt&#x27;, &#x27;r&#x27;)try:    content = file.read()finally:    file.close()# 推荐方式（使用...
+      
+    
+  </div>
+  
+    <div class='meta-v3' line_style='solid'>
+      <div>
+        
+        <time itemprop="dateCreated datePublished" datetime="2025-04-19T18:09:55+08:00">2025-04-19</time>
+        
+          <span class="dot"></span>
+          <a class="category-link" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/">编程教程</a><span class="sep"></span><a class="category-link" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/python/">python</a>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/" itemprop="url"><span itemprop="name">编程教程</span></a>
+            </span>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/python/" itemprop="url"><span itemprop="name">python</span></a>
+            </span>
+          
+        
+      </div>
+      
+        <div>
+          <a class='readmore' href='/2025/04/19/fbac5f0e0270/' itemprop="url">
+            阅读全文
+          </a>
+        </div>
+      
+    </div>
+  
+
+</div>
+
+          </div>
+        
+      
+        
+          <div class='post-wrapper'>
+            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
+  <link itemprop="mainEntityOfPage" href="https://www.blog.jeanhua.cn/2025/04/19/396774e96115/">
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="jeanhua's blog">
+  </span>
+  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
+    <meta itemprop="name" content="jeanhua's blog">
+    <meta itemprop="description" content="欢迎来到我的博客，本项目采用hexo框架">
+  </span>
+  
+  
+  
+    <span hidden>
+      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+    </span>
+  
+  
+    
+    <h2 class="article-title"  itemprop="name headline">
+      <a href="/2025/04/19/396774e96115/"  itemprop="url">
+        【专栏】5.python函数与模块化编程
+      </a>
+    </h2>
+  
+  <div class='md article-desc' itemprop="articleBody">
+    
+      
+        Python函数与模块化编程一、函数基础
+函数定义与调用
+
+1234567def greet(name):    &quot;&quot;&quot;向指定名字的人打招呼&quot;&quot;&quot;    return f&quot;Hello, &#123;name&#125;!&quot;# 函数调用message = greet(&quot;Alice&quot;)print(...
+      
+    
+  </div>
+  
+    <div class='meta-v3' line_style='solid'>
+      <div>
+        
+        <time itemprop="dateCreated datePublished" datetime="2025-04-19T18:09:41+08:00">2025-04-19</time>
+        
+          <span class="dot"></span>
+          <a class="category-link" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/">编程教程</a><span class="sep"></span><a class="category-link" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/python/">python</a>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/" itemprop="url"><span itemprop="name">编程教程</span></a>
+            </span>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/python/" itemprop="url"><span itemprop="name">python</span></a>
+            </span>
+          
+        
+      </div>
+      
+        <div>
+          <a class='readmore' href='/2025/04/19/396774e96115/' itemprop="url">
+            阅读全文
+          </a>
+        </div>
+      
+    </div>
+  
+
+</div>
+
+          </div>
+        
+      
+        
+          <div class='post-wrapper'>
+            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
+  <link itemprop="mainEntityOfPage" href="https://www.blog.jeanhua.cn/2025/04/19/9fd2c22ac016/">
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="jeanhua's blog">
+  </span>
+  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
+    <meta itemprop="name" content="jeanhua's blog">
+    <meta itemprop="description" content="欢迎来到我的博客，本项目采用hexo框架">
+  </span>
+  
+  
+  
+    <span hidden>
+      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+    </span>
+  
+  
+    
+    <h2 class="article-title"  itemprop="name headline">
+      <a href="/2025/04/19/9fd2c22ac016/"  itemprop="url">
+        【专栏】4.python数据结构
+      </a>
+    </h2>
+  
+  <div class='md article-desc' itemprop="articleBody">
+    
+      
+        Python数据结构一、数据结构概述
+Python主要数据结构分类
+
+
+
+
+数据结构
+可变性
+有序性
+元素要求
+示例
+
+
+
+列表(list)
+可变
+有序
+无
+[1, 2, 3]
+
+
+元组(tuple)
+不可变
+有序
+无
+(1, 2, 3)
+
+
+字典(dict)
+可变
+无序(3.7+有序插入)
+键必须可哈希
+{‘a’:1, ‘b’:2}
+
+
+集合(set)
+可变
+无序
+必须可哈希
+{1, 2,...
+      
+    
+  </div>
+  
+    <div class='meta-v3' line_style='solid'>
+      <div>
+        
+        <time itemprop="dateCreated datePublished" datetime="2025-04-19T18:09:15+08:00">2025-04-19</time>
+        
+          <span class="dot"></span>
+          <a class="category-link" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/">编程教程</a><span class="sep"></span><a class="category-link" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/python/">python</a>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/" itemprop="url"><span itemprop="name">编程教程</span></a>
+            </span>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/python/" itemprop="url"><span itemprop="name">python</span></a>
+            </span>
+          
+        
+      </div>
+      
+        <div>
+          <a class='readmore' href='/2025/04/19/9fd2c22ac016/' itemprop="url">
+            阅读全文
+          </a>
+        </div>
+      
+    </div>
+  
+
+</div>
+
+          </div>
+        
+      
+        
+          <div class='post-wrapper'>
+            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
+  <link itemprop="mainEntityOfPage" href="https://www.blog.jeanhua.cn/2025/04/19/44860d16bbf9/">
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="jeanhua's blog">
+  </span>
+  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
+    <meta itemprop="name" content="jeanhua's blog">
+    <meta itemprop="description" content="欢迎来到我的博客，本项目采用hexo框架">
+  </span>
+  
+  
+  
+    <span hidden>
+      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+    </span>
+  
+  
+    
+    <h2 class="article-title"  itemprop="name headline">
+      <a href="/2025/04/19/44860d16bbf9/"  itemprop="url">
+        【专栏】3.python流程控制
+      </a>
+    </h2>
+  
+  <div class='md article-desc' itemprop="articleBody">
+    
+      
+        Python流程控制一、条件语句：if-elif-else
+条件语句允许程序根据不同的条件执行不同的代码块。
+基本语法
+123456if 条件1:    # 条件1为真时执行的代码elif 条件2:    # 条件1为假且条件2为真时执行的代码else:    # 所有条件都为假时执行的代码
+
+示例
+12345678age = 18if age &lt; 13:    print(&quot...
+      
+    
+  </div>
+  
+    <div class='meta-v3' line_style='solid'>
+      <div>
+        
+        <time itemprop="dateCreated datePublished" datetime="2025-04-19T17:48:41+08:00">2025-04-19</time>
+        
+          <span class="dot"></span>
+          <a class="category-link" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/">编程教程</a><span class="sep"></span><a class="category-link" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/python/">python</a>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/" itemprop="url"><span itemprop="name">编程教程</span></a>
+            </span>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/python/" itemprop="url"><span itemprop="name">python</span></a>
+            </span>
+          
+        
+      </div>
+      
+        <div>
+          <a class='readmore' href='/2025/04/19/44860d16bbf9/' itemprop="url">
+            阅读全文
+          </a>
+        </div>
+      
+    </div>
+  
+
+</div>
+
+          </div>
+        
+      
+        
+          <div class='post-wrapper'>
+            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
+  <link itemprop="mainEntityOfPage" href="https://www.blog.jeanhua.cn/2025/04/19/395d7d8ca1b4/">
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="jeanhua's blog">
+  </span>
+  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
+    <meta itemprop="name" content="jeanhua's blog">
+    <meta itemprop="description" content="欢迎来到我的博客，本项目采用hexo框架">
+  </span>
+  
+  
+  
+    <span hidden>
+      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+    </span>
+  
+  
+    
+    <h2 class="article-title"  itemprop="name headline">
+      <a href="/2025/04/19/395d7d8ca1b4/"  itemprop="url">
+        【专栏】2.python变量与数据类型
+      </a>
+    </h2>
+  
+  <div class='md article-desc' itemprop="articleBody">
+    
+      
+        Python变量与数据类型一、变量基础
+什么是变量？
+
+变量是存储数据的容器，可以理解为数据的”标签”或”名字”。在Python中，变量不需要提前声明类型，赋值时会自动确定类型。
+
+变量命名规则
+
+• 只能包含字母、数字和下划线（A-z, 0-9, _）
+• 不能以数字开头
+• 不能使用Python关键字（如if, for, while等）
+• 区分大小写（age和Age是不同的变量）
+• ...
+      
+    
+  </div>
+  
+    <div class='meta-v3' line_style='solid'>
+      <div>
+        
+        <time itemprop="dateCreated datePublished" datetime="2025-04-19T17:37:41+08:00">2025-04-19</time>
+        
+          <span class="dot"></span>
+          <a class="category-link" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/">编程教程</a><span class="sep"></span><a class="category-link" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/python/">python</a>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/" itemprop="url"><span itemprop="name">编程教程</span></a>
+            </span>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/python/" itemprop="url"><span itemprop="name">python</span></a>
+            </span>
+          
+        
+      </div>
+      
+        <div>
+          <a class='readmore' href='/2025/04/19/395d7d8ca1b4/' itemprop="url">
+            阅读全文
+          </a>
+        </div>
+      
+    </div>
+  
+
+</div>
+
+          </div>
+        
+      
+        
+          <div class='post-wrapper'>
+            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
+  <link itemprop="mainEntityOfPage" href="https://www.blog.jeanhua.cn/2025/04/19/1cd50003c2fd/">
+  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="jeanhua's blog">
+  </span>
+  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
+    <meta itemprop="name" content="jeanhua's blog">
+    <meta itemprop="description" content="欢迎来到我的博客，本项目采用hexo框架">
+  </span>
+  
+  
+  
+    <span hidden>
+      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+    </span>
+  
+  
+    
+    <h2 class="article-title"  itemprop="name headline">
+      <a href="/2025/04/19/1cd50003c2fd/"  itemprop="url">
+        【专栏】1.python入门
+      </a>
+    </h2>
+  
+  <div class='md article-desc' itemprop="articleBody">
+    
+      
+        示例
+123456789# 第一个Python程序print(&quot;Hello, Python World!&quot;)  # 在屏幕打印文字# 查看Python版本（重要！）import sysprint(f&quot;\n当前Python版本：&#123;sys.version&#125;&quot;)# 数学计算演示print(f&quot;\n3的平方是：&#123;3**2...
+      
+    
+  </div>
+  
+    <div class='meta-v3' line_style='solid'>
+      <div>
+        
+        <time itemprop="dateCreated datePublished" datetime="2025-04-19T17:29:51+08:00">2025-04-19</time>
+        
+          <span class="dot"></span>
+          <a class="category-link" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/">编程教程</a><span class="sep"></span><a class="category-link" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/python/">python</a>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/" itemprop="url"><span itemprop="name">编程教程</span></a>
+            </span>
+          
+            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+              <a href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/python/" itemprop="url"><span itemprop="name">python</span></a>
+            </span>
+          
+        
+      </div>
+      
+        <div>
+          <a class='readmore' href='/2025/04/19/1cd50003c2fd/' itemprop="url">
+            阅读全文
+          </a>
+        </div>
+      
+    </div>
+  
+
+</div>
+
+          </div>
+        
       
         
           <div class='post-wrapper'>
@@ -2753,213 +3297,24 @@ C语言字符串的输入输出是一个值得探讨的东西
           </div>
         
       
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="https://www.blog.jeanhua.cn/2025/04/18/fff3c8303c8e/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="jeanhua's blog">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="jeanhua's blog">
-    <meta itemprop="description" content="欢迎来到我的博客，本项目采用hexo框架">
-  </span>
-  
-  
-  
-    <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-    </span>
-  
-  
-    
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2025/04/18/fff3c8303c8e/"  itemprop="url">
-        【速通】C语言基础教程
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      
-        
-这篇文章是我的第一篇编程教程，也是给自己学的东西的一点总结，由于篇幅和精力，作为一篇普适性的文章，涉及的C语言都是很基础的。
-
-1. C语言简介C语言是一种通用、高级且面向过程的编程语言，由贝尔实验室的丹尼斯・里奇于20世纪70年代开发。它具有高效、灵活的特点，可直接访问硬件，代码执行速度快。C语言语法简洁，拥有丰富的数据类型和运算符，广泛应用于系统软件、嵌入式开发、游戏、驱动程序等领域。...
-      
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2025-04-18T22:14:13+08:00">2025-04-18</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/">编程教程</a><span class="sep"></span><a class="category-link" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/C%E8%AF%AD%E8%A8%80/">C语言</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/" itemprop="url"><span itemprop="name">编程教程</span></a>
-            </span>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/C%E8%AF%AD%E8%A8%80/" itemprop="url"><span itemprop="name">C语言</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2025/04/18/fff3c8303c8e/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="https://www.blog.jeanhua.cn/2025/04/11/5fb9cba11d0f/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="jeanhua's blog">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="jeanhua's blog">
-    <meta itemprop="description" content="欢迎来到我的博客，本项目采用hexo框架">
-  </span>
-  
-  
-  
-    <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-    </span>
-  
-  
-    
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2025/04/11/5fb9cba11d0f/"  itemprop="url">
-        ubuntu服务器配置网站(nginx)
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      
-        一、安装 Nginx首先，更新 Ubuntu 的包索引，并安装 Nginx。
-12sudo apt-get updatesudo apt-get install nginx
-
-安装完成后，你可以通过在浏览器中访问服务器的公网 IP 地址来验证 Nginx 是否已成功安装并运行。默认情况下，Nginx 会在 /var/www/html/ 目录下提供一个欢迎页面。
-二、配置多网站1. 创建网站配...
-      
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2025-04-11T23:15:25+08:00">2025-04-11</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%96%B9%E6%B3%95%E8%AE%BA/">方法论</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E6%96%B9%E6%B3%95%E8%AE%BA/" itemprop="url"><span itemprop="name">方法论</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2025/04/11/5fb9cba11d0f/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="https://www.blog.jeanhua.cn/2025/04/08/e6c82dedb5c1/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="jeanhua's blog">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="jeanhua's blog">
-    <meta itemprop="description" content="欢迎来到我的博客，本项目采用hexo框架">
-  </span>
-  
-  
-  
-    <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-    </span>
-  
-  
-    
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2025/04/08/e6c82dedb5c1/"  itemprop="url">
-        记一次问解作业感想
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      
-        前言
-问题求解实战作业马上DDL了，这次作业是两周一起的，因此上周就没做，现在做的时候究极折磨，也有一点个人思考
-
-这门课应该是这两年大学生涯中实践性最高的，但是也暴露出了一些问题，如此实践性的课程，应该是要贴近生产实际的，但是结果是，还在教上古的jsp（除了这个老师交作业的网站，目前还没见过哪个网站拿jsp写的），查了一下jsp的发展历程，具体可看：
-曾经风光无限的jsp技术，为什么现在很...
-      
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2025-04-08T13:02:13+08:00">2025-04-08</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E9%9A%8F%E7%AC%94/" itemprop="url"><span itemprop="name">随笔</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2025/04/08/e6c82dedb5c1/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
     
   </section>
   
+    
+      <br>
+      <div class="prev-next">
+        
+        <p class="current">
+          1 / 2
+        </p>
+        
+          <a class="next" rel="next" href="/archives/2025/04/page/2/">
+            <section class="post next white-box shadow floatable blur">
+              &nbsp;下一页&nbsp;<i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+            </section>
+          </a>
+        
+      </div>
     
   
 
@@ -3069,7 +3424,7 @@ C语言字符串的输入输出是一个值得探讨的东西
           <li><a class="flat-box"
             title="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/"
             active-action="action-categoriesE7BC96E7A88BE69599E7A88B"
-            ><div class='name'>编程教程</div><div class='badge'>(4)</div></a></li>
+            ><div class='name'>编程教程</div><div class='badge'>(11)</div></a></li>
         
           <li><a class="flat-box child"
             title="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/C/" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/C/"
@@ -3080,6 +3435,11 @@ C语言字符串的输入输出是一个值得探讨的东西
             title="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/C%E8%AF%AD%E8%A8%80/" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/C%E8%AF%AD%E8%A8%80/"
             active-action="action-categoriesE7BC96E7A88BE69599E7A88BCE8AFADE8A880"
             ><div class='name'>C语言</div><div class='badge'>(3)</div></a></li>
+        
+          <li><a class="flat-box child"
+            title="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/python/" href="/categories/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/python/"
+            active-action="action-categoriesE7BC96E7A88BE69599E7A88Bpython"
+            ><div class='name'>python</div><div class='badge'>(7)</div></a></li>
         
           <li><a class="flat-box"
             title="/categories/%E9%9A%8F%E7%AC%94/" href="/categories/%E9%9A%8F%E7%AC%94/"
@@ -3114,7 +3474,7 @@ C语言字符串的输入输出是一个值得探讨的东西
 
 
     <div class='content'>
-      <a href="/tags/C/" style="font-size: 14px; color: #999">C#</a> <a href="/tags/C/" style="font-size: 17.33px; color: #828282">C++</a> <a href="/tags/C%E8%AF%AD%E8%A8%80/" style="font-size: 24px; color: #555">C语言</a> <a href="/tags/Vue/" style="font-size: 14px; color: #999">Vue</a> <a href="/tags/aspnet/" style="font-size: 14px; color: #999">aspnet</a> <a href="/tags/cuda/" style="font-size: 14px; color: #999">cuda</a> <a href="/tags/flutter/" style="font-size: 17.33px; color: #828282">flutter</a> <a href="/tags/markdown/" style="font-size: 14px; color: #999">markdown</a> <a href="/tags/python/" style="font-size: 24px; color: #555">python</a> <a href="/tags/ssh/" style="font-size: 14px; color: #999">ssh</a> <a href="/tags/visual-studio/" style="font-size: 17.33px; color: #828282">visual studio</a> <a href="/tags/%E4%BB%A3%E7%A0%81/" style="font-size: 14px; color: #999">代码</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 14px; color: #999">博客</a> <a href="/tags/%E5%90%90%E6%A7%BD/" style="font-size: 14px; color: #999">吐槽</a> <a href="/tags/%E6%84%9F%E6%83%B3/" style="font-size: 14px; color: #999">感想</a> <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/" style="font-size: 24px; color: #555">服务器</a> <a href="/tags/%E6%A0%A1%E5%9B%AD%E9%9B%86%E5%B8%82/" style="font-size: 14px; color: #999">校园集市</a> <a href="/tags/%E7%88%AC%E8%99%AB/" style="font-size: 20.67px; color: #6c6c6c">爬虫</a> <a href="/tags/%E7%AC%94%E8%AE%B0/" style="font-size: 14px; color: #999">笔记</a> <a href="/tags/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/" style="font-size: 24px; color: #555">编程教程</a> <a href="/tags/%E7%BD%91%E7%AB%99/" style="font-size: 17.33px; color: #828282">网站</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/" style="font-size: 14px; color: #999">计算机</a> <a href="/tags/%E8%BD%AF%E4%BB%B6/" style="font-size: 14px; color: #999">软件</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 14px; color: #999">随笔</a> <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2/" style="font-size: 14px; color: #999">高等教育</a> <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" style="font-size: 14px; color: #999">高等数学</a>
+      <a href="/tags/C/" style="font-size: 14px; color: #999">C#</a> <a href="/tags/C/" style="font-size: 16px; color: #8b8b8b">C++</a> <a href="/tags/C%E8%AF%AD%E8%A8%80/" style="font-size: 20px; color: #707070">C语言</a> <a href="/tags/Vue/" style="font-size: 14px; color: #999">Vue</a> <a href="/tags/aspnet/" style="font-size: 14px; color: #999">aspnet</a> <a href="/tags/cuda/" style="font-size: 14px; color: #999">cuda</a> <a href="/tags/flutter/" style="font-size: 16px; color: #8b8b8b">flutter</a> <a href="/tags/markdown/" style="font-size: 14px; color: #999">markdown</a> <a href="/tags/python/" style="font-size: 24px; color: #555">python</a> <a href="/tags/ssh/" style="font-size: 14px; color: #999">ssh</a> <a href="/tags/visual-studio/" style="font-size: 16px; color: #8b8b8b">visual studio</a> <a href="/tags/%E4%BB%A3%E7%A0%81/" style="font-size: 14px; color: #999">代码</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 14px; color: #999">博客</a> <a href="/tags/%E5%90%90%E6%A7%BD/" style="font-size: 14px; color: #999">吐槽</a> <a href="/tags/%E6%84%9F%E6%83%B3/" style="font-size: 14px; color: #999">感想</a> <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 22px; color: #636363">教程</a> <a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/" style="font-size: 20px; color: #707070">服务器</a> <a href="/tags/%E6%A0%A1%E5%9B%AD%E9%9B%86%E5%B8%82/" style="font-size: 14px; color: #999">校园集市</a> <a href="/tags/%E7%88%AC%E8%99%AB/" style="font-size: 18px; color: #7e7e7e">爬虫</a> <a href="/tags/%E7%AC%94%E8%AE%B0/" style="font-size: 14px; color: #999">笔记</a> <a href="/tags/%E7%BC%96%E7%A8%8B%E6%95%99%E7%A8%8B/" style="font-size: 20px; color: #707070">编程教程</a> <a href="/tags/%E7%BD%91%E7%AB%99/" style="font-size: 16px; color: #8b8b8b">网站</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/" style="font-size: 14px; color: #999">计算机</a> <a href="/tags/%E8%BD%AF%E4%BB%B6/" style="font-size: 14px; color: #999">软件</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 14px; color: #999">随笔</a> <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2/" style="font-size: 14px; color: #999">高等教育</a> <a href="/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/" style="font-size: 14px; color: #999">高等数学</a>
     </div>
   </section>
 
@@ -3140,7 +3500,7 @@ C语言字符串的输入输出是一个值得探讨的东西
       
         <div class="webinfo-item">
           <div>文章数目：</div>
-          <div>23 篇</div>
+          <div>30 篇</div>
         </div>
       
 
