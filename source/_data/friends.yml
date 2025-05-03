@@ -1,0 +1,21 @@
+- group: 博客
+  description: 推荐的博客
+  items:
+    - title: 57U's blog
+      avatar: https://avatars.githubusercontent.com/u/62684955
+      url: https://blog.57u.tech/
+      screenshot: # 截图
+      keywords: # 关键词
+      description: 神5哥的博客
+    - title: gnahz's blog
+      avatar: https://sunkindream.github.io/images/640.jpg
+      url: https://sunkindream.github.io
+      description: 大佬gnahz的博客
+- group: 资源网站
+  items:
+    - title: jeanhua的资源小站
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=2207739460&src_uin=www.jlwz.cn&s=0
+      url: https://www.res.jeanhua.cn/
+      screenshot: 
+      keywords: 资源分享
+      description: 
