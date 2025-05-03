@@ -45,3 +45,4 @@ git reset --hard origin/main &&
 npm run build
 ```
 
+> 注意每行结尾加一个 &&，不然会出乱七八糟的问题
