@@ -1,0 +1,546 @@
+############################### Navigation Bar ############################### > start
+# 注意事项：建议规范全站路径 URL 最后带一个 "/" 例如 "about/"
+navbar:
+  visiable: auto # always, auto
+  logo: # choose [img] or [icon + title]
+    img: https://q1.qlogo.cn/g?b=qq&nk=2207739460&src_uin=www.jlwz.cn&s=0 # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
+    icon:
+    title:
+  menu:
+    - name: 博客
+      icon: fa-solid fa-rss
+      url: /
+    - name: 分类
+      icon: fa-solid fa-folder-open
+      url: categories/
+    - name: 标签
+      icon: fa-solid fa-tags
+      url: tags/
+    - name: 归档
+      icon: fa-solid fa-archive
+      url: archives/
+    - name: 友链
+      icon: fa-solid fa-link
+      url: friends/
+    - name: 关于
+      icon: fa-solid fa-info-circle
+      url: about/
+    - name: 暗黑模式
+      icon: fas fa-moon
+      toggle: darkmode
+  search: Search...   # Search bar placeholder
+############################### Navigation Bar ############################### > end
+
+############################### Cover ############################### > start
+cover:
+  height_scheme: full # full, half
+  layout_scheme: dock # blank (留白), search (搜索), dock (坞), featured (精选), focus (焦点)
+  display:
+    home: true
+    archive: true
+    others: false # can be written in front-matter 'cover: true'
+  background: "https://www.gallery.jeanhua.cn/d/%E5%A4%A9%E7%BF%BC%E7%BD%91%E7%9B%98%E5%AE%A2%E6%88%B7%E7%AB%AF/%E7%9B%B8%E5%86%8C/jeanhua/IMG_20240529_201304%20(1).jpg?sign=rQeglYXkWdPxspPs4ri1DfB9c1wKuksG2hTyz4kejF0=:0"
+  # background: https://bing.ioliu.cn/v1/rand?w=1920&h=1200
+  logo: # "https://q1.qlogo.cn/g?b=qq&nk=2207739460&src_uin=www.jlwz.cn&s=0"
+  title: "jeanhua's blog"
+  subtitle: ''
+  search: 想找些什么呢？ # search bar placeholder
+  features:
+    - name: 主页
+      icon: #
+      img: volantis-static/media/twemoji/assets/svg/1f5c3.svg # https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg
+      url: http://www.jeanhua.cn
+    - name: 留言
+      icon: #
+      img: volantis-static/media/twemoji/assets/svg/1f516.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg
+      url: https://jsj.top/f/u91uTH
+    - name: 资源
+      icon: #
+      img: volantis-static/media/twemoji/assets/svg/1f396.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f396.svg
+      url: http://res.jeanhua.cn
+    - name: 组织
+      icon: #
+      img: volantis-static/media/twemoji/assets/svg/1f389.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f389.svg
+      url: https://github.com/The-Brotherhood-of-SCU
+    - name: 归档
+      icon: #
+      img: volantis-static/media/twemoji/assets/svg/1f4f0.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
+      url: /archives/
+    - name: 代码
+      icon: #
+      img: volantis-static/media/twemoji/assets/svg/1f9ec.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg
+      url: https://github.com/jeanhua
+############################### Cover ############################### > end
+
+############################### Article Layout ############################### > start
+# 文章布局
+article:
+  # 文章列表页面的文章卡片布局方案
+  preview:
+    scheme: landscape # landscape
+    # pin icon for post
+    pin_icon: volantis-static/media/twemoji/assets/svg/1f4cc.svg # https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4cc.svg
+    # auto generate title if not exist
+    auto_title: true # false, true
+    # auto generate excerpt if not exist
+    auto_excerpt: true # false, true
+    # hide excerpt
+    hide_excerpt: false
+    # show split line or not
+    line_style: solid # hidden, solid, dashed, dotted
+    # show author
+    author: false # true, false
+    # show readmore button
+    readmore: auto # auto, always
+  # 文章详情页面的文章卡片本体布局方案
+  body:
+    # 文章顶部信息
+    # 从 meta_library 中取
+    top_meta: [author, category, date, counter] #启用评论数量需在此添加
+    # 文章底部信息
+    # 从 meta_library 中取
+    bottom_meta: [updated, tags, share]
+    # ----------------
+    # 文章页脚组件
+    footer_widget:
+      # ----------------
+      # 参考资料、相关资料等 (for layout: post/docs)
+      references:
+        title: 参考资料
+        icon: fa-solid fa-quote-left
+        # 在 front-matter 中:
+        #   references:
+        #     - title: 某篇文章
+        #       url: https://
+        # 即可显示此组件。
+      # ----------------
+      # 相关文章，需要安装插件 (for layout: post)
+      # npm i hexo-related-popular-posts
+      related_posts:
+        enable: false
+        title: 相关文章
+        icon: fa-solid fa-bookmark
+        max_count: 5
+        # 设为空则不使用文章头图
+        placeholder_img: https://gcore.jsdelivr.net/gh/MHG-LAB/cron@gh-pages/bing/bing.jpg
+      # ----------------
+      # 版权声明组件 (for layout: post)
+      copyright:
+        enable: true
+        permalink: '本文永久链接是：'
+        content:
+          - '博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议'
+          - permalink
+         # 自定义版权组件：精细到文章的版权声明
+        custom: true # 开启后替代上方内容的版权显示
+        customData:
+          default: type1  # 默认授权声明
+          #############################
+          # 你可以在文章的 front-matter 覆盖默认版权声明
+          # 配置示例（均可选）： 
+          # copyright:
+          #   type: type3           # 当前文章版权声明类型
+          #   author: 张三          # 本文作者
+          #   ref:                  # 原文出处
+          #     title:              # 原文出处 - 标题
+          #     url:                # 原文出处 - 链接
+          #############################
+          rules:
+            type1: 
+              text: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh#" target="_blank">CC BY-NC-SA 4.0</a>
+              desc: 署名-非商业性使用-相同方式共享 4.0 国际。
+            type2: 
+              text: 禁止转载引用
+              desc: 除非获得原作者的单独授权，任何第三方不得转载！
+            type3: 
+              text: 原作许可协议
+              desc: 本文转载自他站，转载或引用本文时，请遵守原作许可协议！
+            type4: 
+              text: 来自互联网
+              desc: 本文来自互联网，未知来源，侵权请联系删除。
+            type5:
+              text: 允许规范转载
+              desc: 转载请保留本文转载地址，著作权归作者所有！
+            type6:
+              text: 允许付费转载
+              desc: 您可以联系作者通过付费方式获得授权。
+            # 还能自行添加更多
+      # ----------------
+      # 打赏组件 (for layout: post)
+      donate:
+        enable: true
+        images:
+          - https://www.blog.jeanhua.cn/image/咖啡赞赏.png
+          - https://www.blog.jeanhua.cn/image/wxpay.png
+    # meta library
+    meta_library:
+      # 默认文章作者（可在 _data/author.yaml 中增加其他作者，并在 front-matter 中设置）
+      # https://volantis.js.org/advanced-settings/#多人协同
+      author:
+        avatar: volantis-static/media/org.volantis/blog/favicon/apple-touch-icon.png # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/favicon/apple-touch-icon.png
+        name: jeanhua
+        url: /
+      # 文章创建日期
+      date:
+        icon: fa-solid fa-calendar-alt
+        title: '发布于：'
+        format: 'll' # 日期格式 http://momentjs.com/docs/
+      # 文章更新日期
+      updated:
+        icon: fa-solid fa-edit
+        title: '更新于：'
+        format: 'll' # 日期格式 http://momentjs.com/docs/
+      # 文章分类
+      category:
+        icon: fa-solid fa-folder-open
+      # 文章浏览计数
+      counter:
+        icon: fa-solid fa-eye
+        unit: '次浏览'
+      # waline 文章评论数量
+      walinecount:
+        icon: fa-solid fa-comment-dots
+        desc: '条评论' # 条评论
+      # artalk 文章评论数量
+      artalkcount:
+        icon: fa-solid fa-comment-dots
+        desc: '条评论' # 条评论
+      # 文章字数和阅读时长
+      wordcount:
+        icon_wordcount: fa-solid fa-keyboard
+        icon_duration: fa-solid fa-hourglass-half
+      # 文章标签
+      tags:
+        icon: fa-solid fa-hashtag
+      # 分享
+      share:
+        - id: qq
+          img: volantis-static/media/org.volantis/logo/128/qq.png #  https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png
+        - id: qzone
+          img: volantis-static/media/org.volantis/logo/128/qzone.png #  https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png
+        - id: weibo
+          img: volantis-static/media/org.volantis/logo/128/weibo.png #  https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png
+        - id: qrcode # 当id为qrcode时需要安装插件  npm i hexo-helper-qrcode
+          img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png
+        - id: # telegram
+          img: # volantis-static/media/org.volantis/logo/128/telegram.png #  https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/telegram.png
+############################### Article Layout ############################### > end
+
+############################### Comments ############################### > start
+comments:
+  title: <i class='fa-solid fa-comments'></i> 评论
+  enable: true
+  subtitle:
+  service: giscus
+
+  # giscus
+  # https://giscus.app
+  # https://github.com/laymonage/giscus
+  giscus:
+    #以下配置按照 yml 格式增删填写即可
+    repo: jeanhua/Blog
+    repo-id: R_kgDOMWzoUw
+    category: General
+    category-id: DIC_kwDOMWzoU84CieVv
+    mapping: "title"
+    reactions-enabled: "1"
+    emit-metadata: "0"
+    lang: "zh-CN"
+    # 以上配置按照 yml 格式增删填写即可
+    theme:
+      light: "light" # https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/light.css
+      dark: "dark" # https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@master/css/giscus/dark.css
+
+############################### Comments ############################### > end
+
+
+############################### Sidebar ############################### > start
+sidebar:
+  position: right # left right
+  # 主页、分类、归档等独立页面
+  for_page: [blogger, category, tagcloud, webinfo]
+  # layout: docs/post 这类文章页面
+  for_post: [toc]
+  # 侧边栏组件库
+  widget_library:
+    # ---------------------------------------
+    # blogger info widget
+    blogger:
+      class: blogger
+      display: [desktop, mobile] # [desktop, mobile]
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=2207739460&src_uin=www.jlwz.cn&s=0 # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/Logo-NavBar@3x.png
+      shape: rectangle # circle, rectangle
+      url: /about/
+      title:
+      subtitle:
+      jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
+      social:
+        - icon: fa-solid fa-rss
+          url: /atom.xml
+        - icon: fa-solid fa-envelope
+          url: mailto:jeanhua_official@outlook.com
+        - icon: fab fa-github
+          url: https://github.com/jeanhua
+        - icon: fa-solid fa-headphones-alt
+          url: https://music.163.com/#/playlist?id=5263725127
+    # ---------------------------------------
+    # toc widget (valid only in articles)
+    toc:
+      class: toc
+      display: [desktop, mobile] # [desktop, mobile]
+      sticky: true
+      header:
+        icon: fa-solid fa-list
+        title: 本文目录
+      list_number: false
+      min_depth: 2
+      max_depth: 5
+    # ---------------------------------------
+    # music
+    music:
+      class: music
+      display: [desktop, mobile] # [desktop, mobile]
+      pjaxReload: false
+    # ---------------------------------------
+    # category widget
+    category:
+      class: category
+      display: [desktop] # [desktop, mobile]
+      header:
+        icon: fa-solid fa-folder-open
+        title: 文章分类
+        url: /categories/
+    # ---------------------------------------
+    # tagcloud widget
+    tagcloud:
+      class: tagcloud
+      display: [desktop, mobile] # [desktop, mobile]
+      header:
+        icon: fa-solid fa-tags
+        title: 热门标签
+        url: /tags/
+      min_font: 14
+      max_font: 24
+      color: true
+      start_color: '#999'
+      end_color: '#555'
+    # ---------------------------------------
+    # qrcode widget
+    qrcode:
+      class: qrcode
+      display: [desktop, mobile] # [desktop, mobile]
+      height: 64px  # Automatic height if not set
+      images:
+        - https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png #https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/blog/qrcode/github@volantis.png
+    # ---------------------------------------
+    # webinfo widget
+    webinfo:
+      class: webinfo
+      display: [desktop]
+      header:
+        icon: fa-solid fa-award
+        title: 站点信息
+      type:
+        article:
+          enable: true
+          text: '文章数目：'
+          unit: '篇'
+        runtime:
+          enable: true
+          data: '2024/07/13'    # 填写建站日期
+          text: '已运行时间：'
+          unit: '天'
+        wordcount:
+          enable: false
+          text: '本站总字数：'   # 需要启用 wordcount
+          unit: '字'
+        visitcounter:
+          enable: true
+          siteuv:
+            text: '本站访客数：'
+            unit: '人'
+          sitepv:
+            text: '本站总访问量：'
+            unit: '次'
+        lastupd:
+          enable: true
+          friendlyShow: true    # 更友好的时间显示
+          text: '最后活动时间：'
+          unit: '日'
+    # ---------------------------------------
+    # lastupdate widget
+    lastupdate:
+      class: lastupdate
+      display: [desktop, mobile]
+      header:
+        icon: fa-solid fa-clock WISTERIA
+        title: 最近更新
+############################### Sidebar ############################### > end
+
+############################### Site Footer ############################### > start
+site_footer:
+  # layout of footer: [aplayer, social, license, info, copyright]
+  layout: [license, analytics, copyright]
+  social:
+    - icon: #fa-solid fa-rss
+      url:
+    # or
+    - img:
+      url:
+    # or
+    - avatar:
+      url:
+  # site source
+  source: https://github.com/volantis-x/volantis-docs/
+  # analytics using leancloud
+  analytics: >
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span id="busuanzi_container_site_pv">🚀本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+    <span id="busuanzi_container_site_uv"><div class="padding border border-sub border-dotted fadein-right">👤本站总访客数<span id="busuanzi_value_site_uv"></span>人</div></span>
+  # site copyright
+  copyright: '[Copyright © since 2024 by jeanhua](/) Powered by [Hexo](https://hexo.io/)/[Volantis](https://volantis.js.org/)'
+  # You can add your own property here. (Support markdown, for example: br: '<br>')
+  br: '<br>'
+############################### Site Footer ############################### > end\
+
+# 全局页面字符串替换  A => B (可用于临时修改错字等)
+# replace:
+#   - https://unpkg.com/volantis-static@0.0.1654736714924/libs/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2 => /static_assets/fa-regular-400.woff2
+#   - https://unpkg.com/volantis-static@0.0.1654736714924/libs/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2 => /static_assets/fa-solid-900.woff2
+#   - https://unpkg.com/volantis-static@0.0.1654736714924/libs/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2 => /static_assets/fa-brands-400.woff2
+
+############################### CDN ###############################
+# 本地静态文件使用 CDN 加速
+# 默认使用 https://unpkg.com/hexo-theme-volantis@<%- theme.info.theme_version %>/source/js/*.js ，注意版本号对应关系！！可以通过修改以下配置项覆盖
+# 开发者注意 cdn.enable 设置为 false
+cdn:
+  enable: false
+  # CDN 前缀，为空使用默认值，链接最后不加 "/",
+  # 例如： https://cdn.jsdelivr.net/gh/volantis-x/volantis-x.github.io@gh-page 填写最后编译生成的源码CDN地址前缀，此路径下应该含有/js与/css目录,
+  # 该配置默认值是："https://unpkg.com/hexo-theme-volantis@"+ theme.info.theme_version +"/source"
+  prefix: #https://unpkg.com/hexo-theme-volantis/source
+  # 以下配置可以覆盖 cdn.prefix,配置项的值可以为空，但是要使用CDN必须依据路径填写配置项的键
+  set:
+    js:
+      #app: /js/app.js
+    css:
+      #style: /css/style.css # (异步加载样式)
+# 静态资源版本控制
+# 本地文件使用文件内容的hash值作为版本号(app.8c1e7c88.js)  其他为时间戳 (?time=1648684470140)
+# 建议静态资源设置标头 浏览器缓存一年边缘缓存一个月 cache-control: max-age=86400, s-maxage=31536000 如果有更新记得刷新缓存
+cdn_version: false
+# volantis static 静态资源文件 npm 包 CDN 地址 (后面加 "/" )
+# https://github.com/volantis-x/volantis-static
+volantis_static_cdn: https://unpkg.com/volantis-static@0.0.1660614606622/
+
+
+################################# 插件 #################################
+plugins:
+  darkmode:
+    enable: true
+
+################################ 插件结束 ##############################
+
+############################### Color Scheme ############################### > start
+# Accessibility: 背景色和前景色要有足够的对比度 https://web.dev/color-contrast/
+# https://ant.design/docs/spec/colors-cn
+color_scheme:
+  # ------------
+  # 通用颜色
+  common:
+    # 主题色
+    theme: '#3dd9b6'
+    # 链接色
+    link: '#2092ec'
+    # 按钮色
+    button: '#44D7B6'
+    # 鼠标放到交互元素上时的色
+    hover: '#ff5722'
+    # 主题色块内部的文字颜色
+    inner: '#fff'
+    # 选中区域文字的背景颜色
+    selection: 'alpha(#2196f3, 0.2)'
+  # ------------
+  # 亮色主题（默认）
+  light:
+    # 网站背景色
+    site_bg: '#f4f4f4'
+    # 网站背景上的文字
+    site_inner: '#fff'
+    # 网站页脚文字
+    site_footer: '#666'
+
+    # 卡片背景色
+    card: '#fff'
+    # 卡片上的普通文字
+    text: '#444'
+
+    # 区块和代码块背景色
+    block: '#f6f6f6'
+    # 代码块高亮时的背景色
+    codeblock: '#FFF7EA'
+    # 行内代码颜色
+    inlinecode: '#c74f00'
+
+    # 文章部分
+    h1: '#3a3a3a'
+    h2: '#3a3a3a'
+    h3: '#333'
+    h4: '#444'
+    h5: '#555'
+    h6: '#666'
+    p: '#444'
+
+    # 列表文字
+    list: '#666'
+    # 列表 hover 时的文字
+    list_hl: 'mix($color-theme, #000, 80)'
+    # 辅助性文字
+    meta: '#888'
+    
+    # 版权卡片背景色
+    copyright_bkg: '#f5f5f5'
+  # ------------
+  # 暗色主题
+  # https://www.maijisheji.com/2094.html
+  dark:
+    # 网站最深底色            # Dark Grey 1
+    site_bd: '#121212'
+    # 网站背景色              # Dark Grey 2
+    site_bg: '#1f1f1f'
+    # 卡片背景色              # Dark Grey 3
+    card: '#262626'
+    # 网站背景上的文字
+    site_inner: '#eeeeeede'
+    # 网站页脚文字
+    site_footer: '#aaaaaade'
+    # 卡片上的普通文字
+    text: '#eeeeeede'
+
+    # 区块和代码块背景色       # Dark Grey 4
+    block: '#434343'
+    # 代码块高亮时的背景色     # Dark Grey 2
+    codeblock: '#1f1f1f'
+    # 行内代码颜色
+    inlinecode: '#D56D28'
+
+    # 文章部分 高强度文本的不透明度应为87％ 中等重点文字适用于60％
+    h1: '#FFFFFFde'            #  Dark Grey 8
+    h2: '#FFFFFFde'
+    h3: '#FFFFFF99'            #  Dark Grey 7
+    h4: '#FFFFFF99'
+    h5: '#FFFFFF99'
+    h6: '#FFFFFF99'
+    p: '#d9d9d9de'           #  Dark Grey 6
+
+    # 列表文字                #  Dark Grey 6
+    list: '#d9d9d9de'
+    # 列表 hover 时的文字
+    list_hl: 'mix($color-theme, #fff, 80)'
+    # 辅助性文字              #  Dark Grey 5
+    meta: '#bfbfbfde'
+    # 版权卡片背景色
+    copyright_bkg: '#21252b'
+    # 夜间图片亮度
+    brightness: 70%
+############################### Color Scheme ############################### > end
