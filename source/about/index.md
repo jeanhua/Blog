@@ -62,4 +62,4 @@
 
 &zwnj;**技术栈偏好**&zwnj;：
 
-C# TypeScript Go Python React Flutter Vue AI
+![skills](https://skillicons.dev/icons?perline=14&i=html,java,python,c,cpp,cs,go,typescript,dart,javascript,flutter,vue,vite,react,git,github,linux,ubuntu,md,photoshop,postman,sqlite,vscode,visualstudio,idea,qt,pycharm,unity)
