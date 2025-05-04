@@ -41,10 +41,9 @@ nginx的页面根目录是限制在`/var/www/`下的，但是我的代码文件�
 
 [jeanhua/github-webhook-go: go实现github webhook](https://github.com/jeanhua/github-webhook-go)
 
-## 附action.sh
+## 附 我的action.sh
 
 ```bash
-# 你需要的脚本操作
 cd /home/jeanhua/my_blog/Blog/ &&
 git fetch origin main &&
 git reset --hard origin/main &&
