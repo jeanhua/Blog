@@ -51,3 +51,18 @@ npm run build
 ```
 
 > 注意每行结尾加一个 &&，不然会出乱七八糟的问题
+
+## 附 nginx转发服务
+
+```nginx
+server{
+    location /hook {
+        proxy_pass http://localhost:5599;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+```
+
