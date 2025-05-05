@@ -17,7 +17,7 @@ categories:
 
 ## nginx软链接404问题
 
-nginx的页面根目录是限制在`/var/www/`下的，但是我的代码文件不应该放这里，于是打算创建一个软链接，指向`/home/jeanhua/Blog/public`，刚好构建完就可以，不用复制文件过去，但是出现了404的问题，排查了一下发现是权限问题，nginx的组是www-data，解决办法也很简单，直接给博客目录和对应的父目录使用`chmod +x 文件夹`即可
+nginx的页面根目录是一般是放在`/var/www/`下的，但是我的代码文件不应该放这里，于是打算创建一个软链接，指向`/home/jeanhua/Blog/public`，刚好构建完就可以，不用复制文件过去，但是出现了404的问题，排查了一下发现是权限问题，nginx的组是www-data，解决办法也很简单，直接给博客目录和对应的父目录使用`chmod +x 文件夹`即可
 
 ## github webhook secret问题
 
