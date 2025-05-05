@@ -21,7 +21,7 @@ categories:
 
 点击下方链接前往docker官网下载安装docker桌面版
 
-[Docker Desktop: The #1 Containerization Tool for Developers | Docker](https://www.docker.com/products/docker-desktop/)
+https://www.docker.com/products/docker-desktop/
 
 安装完成是这个界面
 
