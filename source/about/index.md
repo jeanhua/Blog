@@ -6,6 +6,8 @@
 - Github主页：https://github.com/jeanhua
 - 地址: 四川 · 成都
 
+> 没事的时候喜欢写点代码，喜欢造轮子或者写点小工具，讨厌CURD
+
 ## 🎓 教育背景
 
 {% timeline %}
@@ -68,4 +70,4 @@
 
 &zwnj;**技术栈偏好**&zwnj;：
 
-![skills](https://skillicons.dev/icons?perline=14&i=html,java,python,c,cpp,cs,go,typescript,dart,javascript,flutter,vue,vite,react,git,github,linux,ubuntu,md,photoshop,postman,sqlite,vscode,visualstudio,idea,qt,pycharm,unity)
+![like](https://skillicons.dev/icons?perline=14&i=cs,go,typescript,dart,flutter,vue,react,git,github,ubuntu,md)
