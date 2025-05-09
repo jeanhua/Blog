@@ -242,10 +242,10 @@ comments:
   giscus:
     #以下配置按照 yml 格式增删填写即可
     repo: jeanhua/Blog
-    repo-id: R_kgDOMWzoUw
+    repo-id: R_kgDOOjx6Mw
     category: General
-    category-id: DIC_kwDOMWzoU84CieVv
-    mapping: "title"
+    category-id: DIC_kwDOOjx6M84Cp8iW
+    mapping: "pathname"
     reactions-enabled: "1"
     emit-metadata: "0"
     lang: "zh-CN"
