@@ -42,7 +42,7 @@ cover:
     home: true
     archive: true
     others: false # can be written in front-matter 'cover: true'
-  background: "https://pic1.imgdb.cn/item/681ee35158cb8da5c8eaaf4c.jpg"
+  background: "https://www.gallery.jeanhua.cn/d/%E5%A4%A9%E7%BF%BC%E7%BD%91%E7%9B%98%E5%AE%A2%E6%88%B7%E7%AB%AF/%E7%9B%B8%E5%86%8C/jeanhua/IMG_20240529_201304%20(1).jpg?sign=rQeglYXkWdPxspPs4ri1DfB9c1wKuksG2hTyz4kejF0=:0"
   # background: https://bing.ioliu.cn/v1/rand?w=1920&h=1200
   logo: # "https://q1.qlogo.cn/g?b=qq&nk=2207739460&src_uin=www.jlwz.cn&s=0"
   title: "jeanhua's blog"
