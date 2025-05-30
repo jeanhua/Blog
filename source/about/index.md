@@ -8,30 +8,6 @@
 
 > 没事的时候喜欢写点代码，喜欢造轮子或者写点小工具，讨厌CURD
 
-## 🎓 教育背景
-
-{% timeline %}
-
-{% timenode 2023年9月 %}
-
-四川大学 计算机科学与技术
-
-{% endtimenode %}
-
-{% timenode 2020年8月 %}
-
-都匀市第一中学
-
-{% endtimenode %}
-
-{% timenode 2017年8月 %}
-
-独山县第三中学
-
-{% endtimenode %}
-
-{% endtimeline %}
-
 
 
 ## 📅 日志
