@@ -14,6 +14,12 @@
 
 {% timeline %}
 
+{% timenode 2025年6月7日 %}
+
+华为云服务器即将过期，转移至腾讯云服务器
+
+{% endtimenode %}
+
 {% timenode 2025年5月3日 %}
 
 重建Blog仓库，由构建仓库转为源码仓库，使用webhook通知后端构建更新
