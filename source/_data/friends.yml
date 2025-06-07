@@ -11,11 +11,17 @@
       avatar: https://sunkindream.github.io/images/640.jpg
       url: https://sunkindream.github.io
       description: 大佬gnahz的博客
-- group: 资源网站
+- group: 我的其他站点
   items:
-    - title: jeanhua的资源小站
+    - title: jeanhua's page
       avatar: https://q1.qlogo.cn/g?b=qq&nk=2207739460&src_uin=www.jlwz.cn&s=0
-      url: https://www.res.jeanhua.cn/
+      url: https://memos.jeanhua.cn/
       screenshot: 
-      keywords: 资源分享
-      description: 
+      keywords: 
+      description: 我的主页
+    - title: jeanhua's memos 空间
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=2207739460&src_uin=www.jlwz.cn&s=0
+      url: https://jeanhua.cn/
+      screenshot: 
+      keywords: 
+      description: 我的备忘录
