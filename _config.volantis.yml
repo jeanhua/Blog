@@ -57,10 +57,6 @@ cover:
       icon: #
       img: volantis-static/media/twemoji/assets/svg/1f516.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f516.svg
       url: https://jsj.top/f/u91uTH
-    - name: 资源
-      icon: #
-      img: volantis-static/media/twemoji/assets/svg/1f396.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f396.svg
-      url: http://res.jeanhua.cn
     - name: 组织
       icon: #
       img: volantis-static/media/twemoji/assets/svg/1f389.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f389.svg
@@ -73,6 +69,10 @@ cover:
       icon: #
       img: volantis-static/media/twemoji/assets/svg/1f9ec.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg
       url: https://github.com/jeanhua
+    - name: 备忘录
+      icon: #
+      img: /image/svg/1f4cb.svg
+      url: https://memos.jeanhua.cn
 ############################### Cover ############################### > end
 
 ############################### Article Layout ############################### > start
