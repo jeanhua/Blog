@@ -69,7 +69,7 @@ cover:
       icon: #
       img: volantis-static/media/twemoji/assets/svg/1f9ec.svg #  https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg
       url: https://github.com/jeanhua
-    - name: 备忘录
+    - name: 笔记
       icon: #
       img: /image/svg/1f4cb.svg
       url: https://memos.jeanhua.cn
