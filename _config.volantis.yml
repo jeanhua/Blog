@@ -22,9 +22,15 @@ navbar:
     - name: 友链
       icon: fa-solid fa-link
       url: friends/
-    - name: 组织
+    - name: 开源
       icon: fa-solid fa-award
-      url: https://github.com/The-Brotherhood-of-SCU
+      rows:
+      - name: Github 主页
+        icon: fa-solid fa-link
+        url: https://www.github.com/jeanhua
+      - name: Github 组织
+        icon: fa-solid fa-link
+        url: https://github.com/The-Brotherhood-of-SCU
     - name: 关于
       icon: fa-solid fa-info-circle
       url: about/
