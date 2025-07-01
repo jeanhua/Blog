@@ -48,7 +48,7 @@ cover:
     home: true
     archive: true
     others: false # can be written in front-matter 'cover: true'
-  background: "https://fs.jeanhua.cn/d/ty/%E7%9B%B8%E5%86%8C/jeanhua/IMG_20240529_201304%20(1).jpg?sign=sz06fv9uvl6yxOdnCWCqnylbV0XsrSKlsQuNG6x2KWg=:0"
+  background: "https://fs.jeanhua.cn/d/ty/imageBed/background_minify.jpg?sign=pclPyxYxLLAcLp7RB17SAU6uR3X1dMcc6gg9KyRJVUo=:0"
   # background: https://bing.ioliu.cn/v1/rand?w=1920&h=1200
   logo: # "https://q1.qlogo.cn/g?b=qq&nk=2207739460&src_uin=www.jlwz.cn&s=0"
   title: "jeanhua's blog"
