@@ -408,7 +408,7 @@ site_footer:
     <span id="busuanzi_container_site_pv">🚀本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
     <span id="busuanzi_container_site_uv"><div class="padding border border-sub border-dotted fadein-right">👤本站总访客数<span id="busuanzi_value_site_uv"></span>人</div></span>
   # site copyright
-  copyright: '[Copyright © since 2024 by jeanhua](/) Powered by [Hexo](https://hexo.io/)/[Volantis](https://volantis.js.org/)<br>由[腾讯云](https://cloud.tencent.com/)提供服务'
+  copyright: '[Copyright © since 2024 by jeanhua](/) Powered by [Hexo](https://hexo.io/)/[Volantis](https://volantis.js.org/)<br>本站点由 [![腾讯云](/image/tencent_cloud.svg)](https://cloud.tencent.com/) 提供服务'
   # You can add your own property here. (Support markdown, for example: br: '<br>')
   br: '<br>'
 ############################### Site Footer ############################### > end\
