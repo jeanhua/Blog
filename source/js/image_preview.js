@@ -33,8 +33,6 @@ if (document.getElementById("vsc000001") == null) {
         title: false,
         tooltip: false,
         toolbar: false,
-        minZoomRatio: 0.5,
-        maxZoomRatio: 100,
         movable: true,
         interval: 1000,
         navbar: false,
