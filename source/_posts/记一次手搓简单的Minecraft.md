@@ -1,5 +1,5 @@
 ---
-title: 记一次手戳简单的Minecraft
+title: 记一次手搓简单的Minecraft
 date: 2025-08-24 15:06:44
 tags:
 - OpenGL
