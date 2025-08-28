@@ -375,7 +375,7 @@ navbar:
     - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
     - {
       key: '开源',
-      icon: 'iconfont icon-books',
+      icon: 'iconfont icon-github-fill',
       submenu: [
         { key: 'github主页', link: 'https://www.github.com/jeanhua' },
         { key: 'github组织', link: 'https://github.com/The-Brotherhood-of-SCU' },
