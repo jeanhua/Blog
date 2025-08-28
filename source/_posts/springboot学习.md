@@ -58,8 +58,8 @@ debug=true
 
 ```java
 url = "https://api.weixin.qq.com/wxa/business/getuserphonenumber?access_token="+ Objects.requireNonNull(result.getBody()).access_token;
-            var requestBody = "{\"code\":\"value\"}".replace("value",loginRequestDTO.code); // 换成字符串传进去就可以
-            var phoneBack = restTemplate.postForEntity(url,new HttpEntity<>(requestBody,new HttpHeaders()),PhoneRequestResponse.class);
+var requestBody = "{\"code\":\"value\"}".replace("value",loginRequestDTO.code); // 换成字符串传进去就可以
+var phoneBack = restTemplate.postForEntity(url,new HttpEntity<>(requestBody,new HttpHeaders()),PhoneRequestResponse.class);
 ```
 
 这种就可以了，难绷

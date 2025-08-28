@@ -110,7 +110,7 @@ return 0;
 
 即可完成窗口的创建
 
-![window](./image/计算机图形学入门/empty_window.png)
+![empty_window](/image/计算机图形学入门/empty_window.png)
 
 ## 在窗口中渲染一个三角形
 
