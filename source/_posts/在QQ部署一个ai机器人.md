@@ -45,4 +45,4 @@ categories:
 
 后端逻辑代码已开源
 
-{% link PinBot::https://github.com/jeanhua/PinBot::/image/github.svg %}
+https://github.com/jeanhua/PinBot

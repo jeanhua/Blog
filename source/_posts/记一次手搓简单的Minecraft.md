@@ -6,8 +6,7 @@ tags:
 - C++
 categories:
 - 随笔
-plugins:
-  - mathjax
+math: true
 typora-root-url: ./..
 ---
 
