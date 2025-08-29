@@ -1055,6 +1055,12 @@ links:
       avatar: "https://www.janyoung.cn/tx_janyoung%20.jpg"
     }
     - {
+      title: "PK",
+      intro: "we need a real revolution for ourselves.",
+      link: "https://rustlove.cn",
+      avatar: "https://foruda.gitee.com/avatar/1735578534702305405/15325054_rustlove_1735578534.png!avatar100"
+    }
+    - {
       title: "gnahz's blog",
       intro: "高数大佬的博客",
       link: "https://sunkindream.github.io",
