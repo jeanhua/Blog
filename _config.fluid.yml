@@ -1072,6 +1072,12 @@ links:
       link: "https://youweiyu.github.io",
       avatar: "https://avatars.githubusercontent.com/u/147398040?s=400&u=0feae2c94751140542d6e062ebe2321ce20af534&v=4"
     }
+    - {
+      title: "MarkBai的数字自留地",
+      intro: "一个IT&DIY爱好者的折腾日志",
+      link: "https://blog.051088.xyz/",
+      avatar: "https://blog-img.051088.xyz/avatar_big.png"
+    }
   
 
   # 当成员头像加载失败时，替换为指定图片
@@ -1083,7 +1089,7 @@ links:
   custom:
     enable: true
     content: '<h4>添加友链</h4>
-      添加完本站友链后可<a style="color:blue" href="https://github.com/jeanhua/Blog/issues/new?template=frends-link.md">点击这里</a>前往github申请友链, 审核通过后更新显示
+      添加完本站友链后可给我发送邮件或<a style="color:blue" href="https://github.com/jeanhua/Blog/issues/new?template=frends-link.md">点击这里</a>前往github申请友链, 审核通过后更新显示
       <br><br><h4>站点信息</h4>
       网站名称: jeanhua的博客<br>网站链接: https://www.blog.jeanhua.cn<br>网站描述: jeanhua的个人博客<br>网站头像: https://q1.qlogo.cn/g?b=qq&nk=2207739460&s=0'
 
