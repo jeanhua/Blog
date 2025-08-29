@@ -1043,6 +1043,12 @@ links:
       avatar: "https://q1.qlogo.cn/g?b=qq&nk=2188349576&src_uin=www.jlwz.cn&s=0"
     }
     - {
+      title: "Luxynth's Website",
+      intro: "Luxynth的主页",
+      link: "https://luxynth.cn",
+      avatar: "https://luxynth.cn/assets/images/avatar.jpg"
+    }
+    - {
       title: "gnahz's blog",
       intro: "高数大佬的博客",
       link: "https://sunkindream.github.io",
