@@ -1049,6 +1049,12 @@ links:
       avatar: "https://luxynth.cn/assets/images/avatar.jpg"
     }
     - {
+      title: "医路前行",
+      intro: "一个医学博士的思想碎片",
+      link: "https://www.janyoung.cn",
+      avatar: "https://www.janyoung.cn/tx_janyoung%20.jpg"
+    }
+    - {
       title: "gnahz's blog",
       intro: "高数大佬的博客",
       link: "https://sunkindream.github.io",
