@@ -116,3 +116,6 @@ $$
 
 ![logo2](/image/手搓minecraft/logo2.png)
 
+![LOVE](/image/手搓minecraft/LOVE.png)
+
+![river](/image/手搓minecraft/river.png)
