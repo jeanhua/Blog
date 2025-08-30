@@ -16,7 +16,7 @@ categories:
 
 可查看此篇：
 
-{% link 花了4个小时，实现了博客自动构建脚本(golang)::/2025/05/04/36859ed8e5ea/  %}
+[花了4个小时，实现了博客自动构建脚本(golang) - jeanhua's blog](https://blog.jeanhua.cn/2025/05/04/36859ed8e5ea/)
 
 ## 先前：
 
