@@ -1080,6 +1080,12 @@ links:
       link: "https://blog.051088.xyz/",
       avatar: "https://blog-img.051088.xyz/avatar_big.png"
     }
+    - {
+      title: "SNOWS",
+      intro: "welcome to the real world.it sucks,youre gonna love it",
+      link: "https://snows.chat",
+      avatar: "https://foruda.gitee.com/avatar/1756797583886460777/12127599_hxs-12138_1756797583.png"
+    }
   
 
   # 当成员头像加载失败时，替换为指定图片
