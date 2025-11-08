@@ -12,8 +12,6 @@ layout: about
 - Github主页：https://github.com/jeanhua
 - 地址: 四川 · 成都
 
-备忘录：https://memos.jeanhua.cn
-
 > 世事一场大梦，人生几度秋凉？夜来风叶已鸣廊，看取眉头鬓上。
 > 酒贱常愁客少，月明多被云妨。中秋谁与共孤光，把盏凄凉北望。
 >
