@@ -6,6 +6,7 @@ tags:
 - 网站
 categories:
 - 方法论
+typora-root-url: ./..
 ---
 
 <meta name="referrer" content="never">
@@ -22,7 +23,7 @@ sudo apt-get install apache2
 ```
 然后在地址栏输入公网IP看是否能访问到如下页面
 
-![image](https://img2024.cnblogs.com/blog/3318028/202407/3318028-20240720213940446-1323015072.png)
+![Snipaste_2025-11-08_20-46-29](/image/ubuntu配置服务器/Snipaste_2025-11-08_20-46-29.png)
 
 此时网站的页面在/var/www/html/目录下，修改即可
 
