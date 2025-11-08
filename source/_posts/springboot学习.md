@@ -133,19 +133,3 @@ var phoneBack = restTemplate.postForEntity(url,new HttpEntity<>(requestBody,new 
 ### 11.支付问题
 
 这就是微信sdk的问题了，文档写的一坨，自己的官方示例都不用自己的sdk，真的抽象，不过基础问题已经解决，最后封装成了一个service，可以在代码目录里面查看
-
-## 代码目录
-
-1. [活动相关](https://github.com/jeanhua/java-springboot-project-based-learning/tree/main/activity)
-
-2. [JWT和用户](https://github.com/jeanhua/java-springboot-project-based-learning/tree/main/jwt)
-
-3. [订单管理](https://github.com/jeanhua/java-springboot-project-based-learning/tree/main/order)
-
-4. [对象存储](https://github.com/jeanhua/java-springboot-project-based-learning/tree/main/oss)
-
-5. [微信支付](https://github.com/jeanhua/java-springboot-project-based-learning/tree/main/pay)
-
-6. [问卷管理](https://github.com/jeanhua/java-springboot-project-based-learning/tree/main/questionnaire)
-
-7. [商品管理](https://github.com/jeanhua/java-springboot-project-based-learning/tree/main/sell)
