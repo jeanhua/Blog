@@ -1099,7 +1099,7 @@ links:
     content: '<h4>添加友链</h4>
       添加完本站友链后可留言或给我<a href="mailto:jeanhua_official@outlook.com">发送邮件</a>或<a style="color:blue" href="https://github.com/jeanhua/Blog/issues/new?template=frends-link.md">点击这里</a>前往github申请友链, 审核通过后更新显示
       <br><br><h4>站点信息</h4>
-      网站名称: jeanhua的博客<br>网站链接: https://www.blog.jeanhua.cn<br>网站描述: jeanhua的个人博客<br>网站头像: https://q1.qlogo.cn/g?b=qq&nk=2207739460&s=0'
+      网站名称: jeanhua的博客<br>邮箱: jeanhua_official@outlook.com<br>网站链接: https://www.blog.jeanhua.cn<br>网站描述: jeanhua的个人博客<br>网站头像: https://q1.qlogo.cn/g?b=qq&nk=2207739460&s=0'
 
   # 评论插件
   # Comment plugin
