@@ -372,7 +372,7 @@ navbar:
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
     - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
-    - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
+    - { key: "links", link: "/friends/", icon: "iconfont icon-link-fill" }
     - {
       key: '开源',
       icon: 'iconfont icon-github-fill',
@@ -1033,58 +1033,10 @@ links:
   # Member item of page
   items:
     - {
-      title: "57U's blog",
-      intro: "神5哥的博客",
-      link: "https://blog.57u.tech",
-      avatar: "https://avatars.githubusercontent.com/u/62684955"
-    }
-    - {
-      title: "leeinx's blog",
-      intro: "leeinx的博客",
-      link: "https://leeinx.com",
-      avatar: "https://q1.qlogo.cn/g?b=qq&nk=2188349576&src_uin=www.jlwz.cn&s=0"
-    }
-    - {
-      title: "Luxynth",
-      intro: "我心匪石不可转",
-      link: "https://luxynth.cn",
-      avatar: "https://luxynth.cn/assets/images/avatar.jpg"
-    }
-    - {
-      title: "医路前行",
-      intro: "一个医学博士的思想碎片",
-      link: "https://www.janyoung.cn",
-      avatar: "https://www.janyoung.cn/tx_janyoung%20.jpg"
-    }
-    - {
-      title: "PK",
-      intro: "we need a real revolution for ourselves.",
-      link: "https://rustlove.blog",
-      avatar: "https://foruda.gitee.com/avatar/1735578534702305405/15325054_rustlove_1735578534.png!avatar100"
-    }
-    - {
-      title: "gnahz's blog",
-      intro: "高数大佬的博客",
-      link: "https://sunkindream.github.io",
-      avatar: "https://sunkindream.github.io/images/640.jpg"
-    }
-    - {
-      title: "小鱼日记",
-      intro: "杂乱无章的日记",
-      link: "https://youweiyu.github.io",
-      avatar: "https://avatars.githubusercontent.com/u/147398040?s=400&u=0feae2c94751140542d6e062ebe2321ce20af534&v=4"
-    }
-    - {
-      title: "MarkBai的数字自留地",
-      intro: "一个IT&DIY爱好者的折腾日志",
-      link: "https://blog.051088.xyz/",
-      avatar: "https://blog-img.051088.xyz/avatar_big.png"
-    }
-    - {
-      title: "SNOWS",
-      intro: "welcome to the real world.it sucks,youre gonna love it",
-      link: "https://snows.chat",
-      avatar: "https://foruda.gitee.com/avatar/1756797583886460777/12127599_hxs-12138_1756797583.png"
+      title: "",
+      intro: "",
+      link: "",
+      avatar: ""
     }
   
 
@@ -1096,10 +1048,7 @@ links:
   # Custom content at the bottom of the links
   custom:
     enable: true
-    content: '<h4>添加友链</h4>
-      添加完本站友链后可留言或给我<a href="mailto:jeanhua_official@outlook.com">发送邮件</a>或<a style="color:blue" href="https://github.com/jeanhua/Blog/issues/new?template=frends-link.md">点击这里</a>前往github申请友链, 审核通过后更新显示
-      <br><br><h4>站点信息</h4>
-      网站名称: jeanhua的博客<br>邮箱: jeanhua_official@outlook.com<br>网站链接: https://www.blog.jeanhua.cn<br>网站描述: jeanhua的个人博客<br>网站头像: https://q1.qlogo.cn/g?b=qq&nk=2207739460&s=0'
+    content: ''
 
   # 评论插件
   # Comment plugin
