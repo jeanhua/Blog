@@ -116,3 +116,73 @@ printf("%d", **pptr); // 输出10
 或者说：
 
 高级语言高级在哪？就是它把底层的东西通过抽象，提供一个简单的接口，人们不用去管它实际是怎么工作的，指针就是如此，**它本质是内存地址的抽象**，C语言通过指针操作，对内存进行访问控制
+
+## 指针之面向对象
+
+面向对象是一种编程范式，不是语言功能，很多人说C++和C的区别是C++是面向对象而C是面向过程，这句话是错的，下面演示一下C的面向对象的写法
+
+```c
+#include <stdlib.h>
+#include <stdio.h>
+
+typedef struct Student Student;
+struct Student{
+	const char* name;
+	int age;
+	float score;
+	const char* (*getName)(Student* student);
+	int (*getAge)(Student* student);
+	float (*getScore)(Student* student);
+};
+
+static const char* getNameImpl(Student* student) {
+	return student->name;
+}
+
+static int getAgeImpl(Student* student) {
+	return student->age;
+}
+
+static float getScoreImpl(Student* student) {
+	return student->score;
+}
+
+Student* createStudent(const char* name, int age, float score) {
+	Student* student = (Student*)malloc(sizeof(Student));
+	student->age = age;
+	student->score = score;
+	student->name = name;
+	student->getAge = getAgeImpl;
+	student->getName = getNameImpl;
+	student->getScore = getScoreImpl;
+	return student;
+}
+
+void freeStudent(Student* student) {
+	free(student);
+}
+
+int main()
+{
+	Student* student = createStudent("Alice", 20, 95.5f);
+	printf("Name: %s\n", student->getName(student));
+	printf("Age: %d\n", student->getAge(student));
+	printf("Score: %.2f\n", student->getScore(student));
+	freeStudent(student);
+	return 0;
+}
+```
+
+> 名字那里一般不直接拷贝字面量指针，这里只是简单起见这么写
+>
+> 函数实现用static是控制访问性只在本文件内有效，这里简单起见没有拆开到头文件
+
+输出：
+
+```bash
+Name: Alice
+Age: 20
+Score: 95.50
+```
+
+显而易见，C中也是可以实现面向对象的
