@@ -77,7 +77,14 @@ const friendLinksData = [
     url: "https://snows.chat",
     avatar: "https://foruda.gitee.com/avatar/1756797583886460777/12127599_hxs-12138_1756797583.png",
     category: "技术类"
-  }
+  },
+  {
+    title: "小元博客",
+    description: "这是一个技术分享和娱乐性的网站，它们记录着我的所思所想，在这里你能看见有关前端或是一些其它乱七八糟的技术思路分享，也能看见我的一些吐槽和有趣的分享，总之很欢迎您的光顾。",
+    url: "https://reblog.cn",
+    avatar: "https://reblog.cn/upload/img/web-user.jpeg",
+    category: "技术类"
+  },
 ];
 
 function renderFriendLinks() {
