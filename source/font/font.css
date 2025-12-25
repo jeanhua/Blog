@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'hand';
+  src: url('/font/AaGuanWoJiuWang-TongWoYangChun-2.ttf') format('truetype');
+}
+
+.hand-body{
+    font-family: "hand";
+}
