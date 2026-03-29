@@ -1,0 +1,72 @@
+[
+  {
+    "title": "57U's blog",
+    "description": "神5哥的博客",
+    "url": "https://blog.57u.tech",
+    "avatar": "https://avatars.githubusercontent.com/u/62684955",
+    "category": "技术类"
+  },
+  {
+    "title": "leeinx's blog",
+    "description": "leeinx的博客",
+    "url": "https://leeinx.com",
+    "avatar": "https://q1.qlogo.cn/g?b=qq&nk=2188349576&src_uin=www.jlwz.cn&s=0",
+    "category": "技术类"
+  },
+  {
+    "title": "Luxynth",
+    "description": "我心匪石不可转",
+    "url": "https://luxynth.cn",
+    "avatar": "https://luxynth.cn/assets/images/avatar.jpg",
+    "category": "技术类"
+  },
+  {
+    "title": "医路前行",
+    "description": "一个医学博士的思想碎片",
+    "url": "https://www.janyoung.cn",
+    "avatar": "https://www.janyoung.cn/tx_janyoung%20.jpg",
+    "category": "生活类"
+  },
+  {
+    "title": "PK",
+    "description": "we need a real revolution for ourselves.",
+    "url": "https://rustlove.blog",
+    "avatar": "https://foruda.gitee.com/avatar/1735578534702305405/15325054_rustlove_1735578534.png",
+    "category": "已失效"
+  },
+  {
+    "title": "gnahz's blog",
+    "description": "高数大佬的博客",
+    "url": "https://sunkindream.github.io",
+    "avatar": "https://sunkindream.github.io/images/640.jpg",
+    "category": "技术类"
+  },
+  {
+    "title": "小鱼日记",
+    "description": "杂乱无章的日记",
+    "url": "https://youweiyu.github.io",
+    "avatar": "https://avatars.githubusercontent.com/u/147398040?s=400&u=0feae2c94751140542d6e062ebe2321ce20af534&v=4",
+    "category": "学术类"
+  },
+  {
+    "title": "MarkBai的数字自留地",
+    "description": "一个IT&DIY爱好者的折腾日志",
+    "url": "https://blog.051088.xyz/",
+    "avatar": "https://blog-img.051088.xyz/avatar_big.png",
+    "category": "技术类"
+  },
+  {
+    "title": "SNOWS",
+    "description": "welcome to the real world. it sucks, you're gonna love it",
+    "url": "https://snows.chat",
+    "avatar": "https://foruda.gitee.com/avatar/1756797583886460777/12127599_hxs-12138_1756797583.png",
+    "category": "技术类"
+  },
+  {
+    "title": "小元博客",
+    "description": "这是一个技术分享和娱乐性的网站，它们记录着我的所思所想，在这里你能看见有关前端或是一些其它乱七八糟的技术思路分享，也能看见我的一些吐槽和有趣的分享，总之很欢迎您的光顾。",
+    "url": "https://reblog.cn",
+    "avatar": "https://reblog.cn/upload/img/web-user.jpeg",
+    "category": "技术类"
+  }
+]
