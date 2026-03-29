@@ -95,17 +95,16 @@ function renderFriendLinks() {
   const allCategories = [...new Set(friendLinksData.map(item => item.category))];
   const normalCategories = allCategories.filter(cat => cat !== "已失效");
   let categories = ["all", ...normalCategories];
-  if (allCategories.includes("已失效")) {
-    categories.push("已失效");
-  }
+  if (allCategories.includes("已失效")) categories.push("已失效");
 
-  nav.innerHTML = categories.map(cat => 
+  nav.innerHTML = categories.map(cat =>
     `<button class="nav-btn ${cat === 'all' ? 'active' : ''}" data-category="${cat}">
       ${cat === 'all' ? '全部' : cat}
     </button>`
   ).join('');
 
   renderLinksByCategory('all');
+
   nav.querySelectorAll('.nav-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       nav.querySelector('.nav-btn.active').classList.remove('active');
@@ -115,19 +114,28 @@ function renderFriendLinks() {
   });
 
   function renderLinksByCategory(category) {
-    const filtered = category === 'all' 
-      ? friendLinksData.filter(item => item.category !== "已失效") 
+    const filtered = category === 'all'
+      ? friendLinksData.filter(item => item.category !== "已失效")
       : friendLinksData.filter(item => item.category === category);
-    
-    list.innerHTML = filtered.map(item => `
-      <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="friend-link-item">
-        <img srcset="${item.avatar}" alt="${item.title}" class="friend-avatar" loading="lazy">
+
+    list.innerHTML = filtered.map((item, i) => `
+      <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="friend-link-item ${item.category === '已失效' ? 'expired' : ''}">
+        <div class="friend-avatar-wrap">
+          <img alt="${item.title}" class="friend-avatar"
+               onerror="this.src='/image/failavatar.png'">
+        </div>
         <div class="friend-info">
           <h3 class="friend-title">${item.title}</h3>
           <p class="friend-desc">${item.description}</p>
         </div>
+        ${item.category === '已失效' ? '<span class="expired-badge">已失效</span>' : ''}
       </a>
     `).join('');
+
+    // 手动设置 src，绕过主题懒加载
+    list.querySelectorAll('.friend-avatar').forEach((img, i) => {
+      img.src = filtered[i].avatar;
+    });
   }
 }
 
@@ -140,86 +148,223 @@ if (document.readyState === 'loading') {
 
 <style>
 #friend-links {
-  max-width: 800px;
+  max-width: 860px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 16px;
 }
 
 .friend-links-nav {
-  margin-bottom: 24px;
+  margin-bottom: 28px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
 
 .nav-btn {
-  padding: 6px 16px;
-  border: 1px solid #ddd;
-  background: #f8f9fa;
-  border-radius: 20px;
+  padding: 7px 20px;
+  border: 1.5px solid #e0e0e0;
+  background: transparent;
+  border-radius: 999px;
   cursor: pointer;
-  transition: all 0.2s;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #555;
+  transition: all 0.2s ease;
 }
 
-.nav-btn.active{
-  background: #ff9500ff;
-  color: white;
-  border-color: #007bff;
-}
 .nav-btn:hover {
-  background: #5c5c5cff;
-  color: white;
-  border-color: #007bff;
+  border-color: #ff9500;
+  color: #ff9500;
+  background: rgba(255, 149, 0, 0.06);
+}
+
+.nav-btn.active {
+  background: linear-gradient(135deg, #ff9500, #ff6b00);
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 0 3px 10px rgba(255, 149, 0, 0.35);
 }
 
 .friend-links-list {
   display: grid;
-  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 18px;
 }
 
 .friend-link-item {
+  position: relative;
   display: flex;
-  gap: 16px;
-  padding: 16px;
-  border: 1px solid #eee;
-  border-radius: 8px;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 16px;
+  border: 1px solid #f0f0f0;
+  border-radius: 14px;
   text-decoration: none;
   color: inherit;
-  transition: box-shadow 0.2s;
+  background: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
+}
+
+.friend-link-item::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255,149,0,0.04), rgba(255,107,0,0.02));
+  opacity: 0;
+  transition: opacity 0.2s;
 }
 
 .friend-link-item:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  border-color: #ffd699;
+}
+
+.friend-link-item:hover::before {
+  opacity: 1;
+}
+
+.friend-link-item.expired {
+  opacity: 0.55;
+  filter: grayscale(0.4);
+}
+
+.friend-avatar-wrap {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #f0f0f0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: border-color 0.2s;
+}
+
+.friend-link-item:hover .friend-avatar-wrap {
+  border-color: #ff9500;
 }
 
 .friend-avatar {
-  width: 60px;
-  height: 60px;
-  border-radius: 8px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  flex-shrink: 0;
+  display: block;
 }
 
 .friend-info {
   flex: 1;
+  min-width: 0;
 }
 
 .friend-title {
-  margin: 0 0 6px;
-  font-size: 1.1em;
-  color: #007bff;
+  margin: 0 0 5px;
+  font-size: 1em;
+  font-weight: 600;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color 0.2s;
+}
+
+.friend-link-item:hover .friend-title {
+  color: #ff9500;
 }
 
 .friend-desc {
   margin: 0;
-  color: #666;
-  font-size: 0.95em;
+  color: #888;
+  font-size: 0.85em;
   line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.expired-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0.72em;
+  padding: 2px 8px;
+  background: #f0f0f0;
+  color: #999;
+  border-radius: 999px;
+}
+
+@media (max-width: 480px) {
+  .friend-links-list {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 
+<div class="apply-section">
+  <h4>添加友链</h4>
+  <p>添加完本站友链后可给我 <a href="mailto:jeanhua_official@outlook.com">发送邮件</a> 或 <a href="https://github.com/jeanhua/Blog/issues/new?template=frends-link.md" target="_blank" rel="noopener">点击这里</a> 前往 GitHub 申请友链，审核通过后更新显示。</p>
+  <h4>站点信息</h4>
+  <div class="site-info">
+    <div class="site-info-item"><span class="label">网站名称</span><span>jeanhua's blog</span></div>
+    <div class="site-info-item"><span class="label">邮箱</span><span>jeanhua_official@outlook.com</span></div>
+    <div class="site-info-item"><span class="label">网站链接</span><span>https://blog.jeanhua.cn</span></div>
+    <div class="site-info-item"><span class="label">网站描述</span><span>jeanhua的个人博客</span></div>
+    <div class="site-info-item"><span class="label">网站头像</span><span>https://q1.qlogo.cn/g?b=qq&nk=2207739460&s=0</span></div>
+  </div>
+</div>
 
-<h4>添加友链</h4>
-添加完本站友链后可留言或给我<a href="mailto:jeanhua_official@outlook.com">发送邮件</a>或<a style="color:blue" href="https://github.com/jeanhua/Blog/issues/new?template=frends-link.md">点击这里</a>前往github申请友链, 审核通过后更新显示
-<br><br><h4>站点信息</h4>
-网站名称: jeanhua的博客<br>邮箱: jeanhua_official@outlook.com<br>网站链接: https://www.blog.jeanhua.cn<br>网站描述: jeanhua的个人博客<br>网站头像: https://q1.qlogo.cn/g?b=qq&nk=2207739460&s=0
+<style>
+.apply-section {
+  max-width: 860px;
+  margin: 40px auto 0;
+  padding: 0 16px;
+}
+
+.apply-section h4 {
+  font-size: 1.05em;
+  font-weight: 600;
+  color: #333;
+  margin: 24px 0 10px;
+  padding-left: 10px;
+  border-left: 3px solid #ff9500;
+}
+
+.apply-section p {
+  color: #666;
+  font-size: 0.95em;
+  line-height: 1.7;
+}
+
+.apply-section a {
+  color: #ff9500;
+  text-decoration: none;
+}
+
+.apply-section a:hover {
+  text-decoration: underline;
+}
+
+.site-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: #fafafa;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+  padding: 16px 20px;
+}
+
+.site-info-item {
+  display: flex;
+  gap: 16px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.site-info-item .label {
+  min-width: 70px;
+  color: #999;
+  font-weight: 500;
+}
+</style>
