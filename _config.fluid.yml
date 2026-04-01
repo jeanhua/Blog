@@ -488,7 +488,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: "https://fs.jeanhua.cn/d/ty/imageBed/background_minify.jpg?sign=pclPyxYxLLAcLp7RB17SAU6uR3X1dMcc6gg9KyRJVUo=:0"
+  banner_img: "https://fs.jeanhua.cn/d/tianyi/imageBed/background_minify.jpg?sign=tt4Vsas7CMSA_45_J-q9Dw8i0zluQYp-ThdZCmZCGHw=:0"
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -924,7 +924,7 @@ discuss:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: "https://fs.jeanhua.cn/d/ty/%E7%9B%B8%E5%86%8C/jeanhua/IMG_20240527_200614%20(1).jpg?sign=ubgERJlPq4Qyet0ycvT60uluItJWp9TsM0Uv_etdoSA=:0"
+  banner_img: "https://fs.jeanhua.cn/d/tianyi/%E7%9B%B8%E5%86%8C/jeanhua/20241129_181900.jpg?sign=JXRSPaDbModMvNQ0d9GJpvG-6nkRv3EHXhPJXa0lSoM=:0"
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -935,7 +935,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: "https://fs.jeanhua.cn/d/ty/%E7%9B%B8%E5%86%8C/jeanhua/IMG_20240812_200702.jpg?sign=rzvjXTToUReSu3MJgVLeF52RfWrvRV6wvby8LCpvpbk=:0"
+  banner_img: "https://fs.jeanhua.cn/d/tianyi/%E7%9B%B8%E5%86%8C/jeanhua/20241129_181855.jpg?sign=7YBqQl9TZd5xljEIxj3a5wTPqC271OvZtTt3CwV4H7g=:0"
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -964,7 +964,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: "https://fs.jeanhua.cn/d/ty/imageBed/photograph/MVIMG_20250726_201747.jpg?sign=AH-pblzHK8T2VsREh1-SxEgvKqu4MF2kgiYHc-nHAvs=:0"
+  banner_img: "https://fs.jeanhua.cn/d/tianyi/%E7%9B%B8%E5%86%8C/jeanhua/IMG_20240812_200702.jpg?sign=8SMfi4Q_CMfxfGTUz34MymuH6-Ybf5RZYPxuMRkWoYk=:0"
   banner_img_height: 80
   banner_mask_alpha: 0.3
   tagcloud:
@@ -981,7 +981,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: "https://fs.jeanhua.cn/d/ty/%E7%9B%B8%E5%86%8C/jeanhua/20241129_181855.jpg?sign=faoup-Ina3RdUssdUA0Q0vC7bdNpnOp3IH1fFshSr5E=:0"
+  banner_img: "https://fs.jeanhua.cn/d/tianyi/%E7%9B%B8%E5%86%8C/jeanhua/20241129_181825.jpg?sign=nVz81JjoKIne8KHTSGp2-u19uUDkBA6l12xN1l4Ccmc=:0"
   banner_img_height: 60
   banner_mask_alpha: 0.3
   avatar: https://q1.qlogo.cn/g?b=qq&nk=2207739460&src_uin=www.jlwz.cn&s=0
@@ -1026,7 +1026,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: "https://fs.jeanhua.cn/d/ty/%E7%9B%B8%E5%86%8C/jeanhua/20241129_181900.jpg?sign=7OKgJCGgnKKmr46dITafzhSDS9rstmtLVYLvL8nkN4I=:0"
+  banner_img: "https://fs.jeanhua.cn/d/tianyi/%E7%9B%B8%E5%86%8C/jeanhua/20241129_181850.jpg?sign=_N_FMGQO-vw2mbT_bL6SnTwvkzbESwwIQjLKiAthSrQ=:0"
   banner_img_height: 60
   banner_mask_alpha: 0.3
   # 友链的成员项
