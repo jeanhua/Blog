@@ -1,0 +1,53 @@
+name: 申请友链
+description: 向本站申请添加友情链接
+title: "[友链申请] 请填写你的博客名称"
+labels: ["friends-link"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你申请友链！请填写以下信息，我会尽快审核 🎉
+
+  - type: input
+    id: blog-title
+    attributes:
+      label: 博客标题
+      placeholder: 例：jeanhua's blog
+    validations:
+      required: true
+
+  - type: textarea
+    id: blog-description
+    attributes:
+      label: 博客描述
+      placeholder: 例：jeanhua的个人博客
+    validations:
+      required: true
+
+  - type: input
+    id: blog-url
+    attributes:
+      label: 博客地址
+      placeholder: 例：https://www.blog.jeanhua.cn
+    validations:
+      required: true
+
+  - type: input
+    id: blog-avatar
+    attributes:
+      label: 博客头像地址
+      placeholder: 例：https://q1.qlogo.cn/g?b=qq&nk=2207739460&s=0
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 申请前请确认
+      options:
+        - label: 博客可以正常访问
+          required: true
+        - label: 博客内容为原创，无违规内容
+          required: true
+        - label: 我已在自己的博客上添加了对方的友链
+          required: false
