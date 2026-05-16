@@ -18,7 +18,7 @@ title: 友链
 
 <div class="apply-section">
   <h4>添加友链</h4>
-  <p>添加完本站友链后可给我 <a href="mailto:jeanhua_official@outlook.com">发送邮件</a> 或 <a href="https://github.com/jeanhua/Blog/issues/new?template=frends-link.md" target="_blank" rel="noopener">点击这里</a> 前往 GitHub 申请友链，审核通过后更新显示。</p>
+  <p>添加完本站友链后可给我 <a href="mailto:jeanhua_official@outlook.com">发送邮件</a> 或 <a href="https://github.com/jeanhua/Blog/issues/new?template=frends-link.yml" target="_blank" rel="noopener">点击这里</a> 前往 GitHub 申请友链，审核通过后更新显示。</p>
   <h4>站点信息</h4>
   <div class="site-info">
     <div class="site-info-item"><span class="label">网站名称</span><span>jeanhua's blog</span></div>
