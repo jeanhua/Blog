@@ -924,7 +924,7 @@ discuss:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: "https://fs.jeanhua.cn/d/tianyi/%E7%9B%B8%E5%86%8C/jeanhua/20241129_181900.jpg?sign=JXRSPaDbModMvNQ0d9GJpvG-6nkRv3EHXhPJXa0lSoM=:0"
+  banner_img: "https://fs.jeanhua.cn/d/tianyi/imageBed/blog_bk.jpg?sign=LSsjJ9uDu3Qv35B4l6NAM7V6VbE4jkgnaAjt0EhcpBU=:0"
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -935,7 +935,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: "https://fs.jeanhua.cn/d/tianyi/%E7%9B%B8%E5%86%8C/jeanhua/20241129_181855.jpg?sign=7YBqQl9TZd5xljEIxj3a5wTPqC271OvZtTt3CwV4H7g=:0"
+  banner_img: "https://fs.jeanhua.cn/d/tianyi/imageBed/blog_bk.jpg?sign=LSsjJ9uDu3Qv35B4l6NAM7V6VbE4jkgnaAjt0EhcpBU=:0"
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -964,7 +964,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: "https://fs.jeanhua.cn/d/tianyi/%E7%9B%B8%E5%86%8C/jeanhua/IMG_20240812_200702.jpg?sign=8SMfi4Q_CMfxfGTUz34MymuH6-Ybf5RZYPxuMRkWoYk=:0"
+  banner_img: "https://fs.jeanhua.cn/d/tianyi/imageBed/blog_bk.jpg?sign=LSsjJ9uDu3Qv35B4l6NAM7V6VbE4jkgnaAjt0EhcpBU=:0"
   banner_img_height: 80
   banner_mask_alpha: 0.3
   tagcloud:
@@ -981,7 +981,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: "https://fs.jeanhua.cn/d/tianyi/%E7%9B%B8%E5%86%8C/jeanhua/20241129_181825.jpg?sign=nVz81JjoKIne8KHTSGp2-u19uUDkBA6l12xN1l4Ccmc=:0"
+  banner_img: "https://fs.jeanhua.cn/d/tianyi/imageBed/blog_bk.jpg?sign=LSsjJ9uDu3Qv35B4l6NAM7V6VbE4jkgnaAjt0EhcpBU=:0"
   banner_img_height: 60
   banner_mask_alpha: 0.3
   avatar: https://q1.qlogo.cn/g?b=qq&nk=2207739460&src_uin=www.jlwz.cn&s=0
@@ -1026,7 +1026,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: "https://fs.jeanhua.cn/d/tianyi/%E7%9B%B8%E5%86%8C/jeanhua/20241129_181850.jpg?sign=_N_FMGQO-vw2mbT_bL6SnTwvkzbESwwIQjLKiAthSrQ=:0"
+  banner_img: "https://fs.jeanhua.cn/d/tianyi/imageBed/blog_bk.jpg?sign=LSsjJ9uDu3Qv35B4l6NAM7V6VbE4jkgnaAjt0EhcpBU=:0"
   banner_img_height: 60
   banner_mask_alpha: 0.3
   # 友链的成员项
