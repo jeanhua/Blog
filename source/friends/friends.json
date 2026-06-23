@@ -4,14 +4,14 @@
     "description": "神5哥的博客",
     "url": "https://blog.57u.tech",
     "avatar": "https://avatars.githubusercontent.com/u/62684955",
-    "category": "技术类"
+    "category": "SCU"
   },
   {
     "title": "leeinx's blog",
     "description": "leeinx的博客",
     "url": "https://leeinx.com",
     "avatar": "https://q1.qlogo.cn/g?b=qq&nk=2188349576&src_uin=www.jlwz.cn&s=0",
-    "category": "技术类"
+    "category": "SCU"
   },
   {
     "title": "Luxynth",
@@ -39,14 +39,14 @@
     "description": "高数大佬的博客",
     "url": "https://sunkindream.github.io",
     "avatar": "https://sunkindream.github.io/images/640.jpg",
-    "category": "技术类"
+    "category": "SCU"
   },
   {
     "title": "小鱼日记",
     "description": "杂乱无章的日记",
     "url": "https://youweiyu.github.io",
     "avatar": "https://avatars.githubusercontent.com/u/147398040?s=400&u=0feae2c94751140542d6e062ebe2321ce20af534&v=4",
-    "category": "学术类"
+    "category": "SCU"
   },
   {
     "title": "MarkBai的数字自留地",
@@ -68,5 +68,12 @@
     "url": "https://reblog.cn",
     "avatar": "https://reblog.cn/upload/img/web-user.jpeg",
     "category": "技术类"
+  },
+  {
+    "title": "oldplum's blog",
+    "description": "oldplum的个人博客",
+    "url": "https://blog.oldplum.dev",
+    "avatar": "https://blog.oldplum.dev/img/avatar.jpg",
+    "category": "SCU"
   }
 ]
