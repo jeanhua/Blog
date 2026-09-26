@@ -1,0 +1,3 @@
+#!/bin/sh
+# 提交前把已暂存的 PNG/JPG/WebP 转换为 AVIF，并同步更新文章里的引用路径。
+node tools/convert-to-avif.mjs --staged
