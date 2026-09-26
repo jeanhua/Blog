@@ -110,7 +110,7 @@ return 0;
 
 即可完成窗口的创建
 
-![empty_window](/image/计算机图形学入门/empty_window.png)
+![empty_window](/image/计算机图形学入门/empty_window.avif)
 
 ## 在窗口中渲染一个三角形
 
@@ -118,7 +118,7 @@ return 0;
 
 > 在OpenGL中，任何事物都在3D空间中，而屏幕和窗口却是2D像素数组，这导致OpenGL的大部分工作都是关于把3D坐标转变为适应你屏幕的2D像素。3D坐标转为2D坐标的处理过程是由OpenGL的图形渲染管线（Graphics Pipeline，大多译为管线，实际上指的是一堆原始图形数据途经一个输送管道，期间经过各种变化处理最终出现在屏幕的过程）管理的。图形渲染管线可以被划分为两个主要部分：第一部分把你的3D坐标转换为2D坐标，第二部分是把2D坐标转变为实际的有颜色的像素。
 
-![pipeline](/image/计算机图形学入门/pipeline.png)
+![pipeline](/image/计算机图形学入门/pipeline.avif)
 
 1. **图形渲染管线（Graphics Pipeline）**
    把 3D 坐标 → 2D 像素的一条“传送带”，分两大阶段：①坐标变换 ②像素着色，可并行、可替换其中的 Shader。
@@ -315,7 +315,7 @@ glfwSwapBuffers(window);
 
 成功渲染出一个三角形：
 
-![rectangle](/image/计算机图形学入门/rectangle.png)
+![rectangle](/image/计算机图形学入门/rectangle.avif)
 
 ## 完整实例
 

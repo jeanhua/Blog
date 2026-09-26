@@ -56,13 +56,13 @@ https://github.com/qiin2333/moonlight-vplus
 
 在sunshine配置设置那里添加平板的分辨率和帧率，我的平板是2800x1840
 
-![sunshine_config](/image/平板串流window桌面记录/sunshine_config.png)
+![sunshine_config](/image/平板串流window桌面记录/sunshine_config.avif)
 
 添加完成后点击保存应用
 
 然后在平板上moonlight设置里面设置：主机设置→自动优化主机设置：打开
 
-![moonlight_config](/image/平板串流window桌面记录/moonlight_config.jpg)
+![moonlight_config](/image/平板串流window桌面记录/moonlight_config.avif)
 
 现在串流应该可以看到内容已经铺满屏幕，没有黑框了
 
@@ -72,7 +72,7 @@ https://github.com/qiin2333/moonlight-vplus
 
 #### 在路由器管理页面，使用拨号上网
 
-![route](/image/平板串流window桌面记录/route.png)
+![route](/image/平板串流window桌面记录/route.avif)
 
 现在就拥有了一个动态的公网IP
 
@@ -82,7 +82,7 @@ https://github.com/jeessy2/ddns-go
 
 安装完成后在 http://localhost:9876/ 进行配置（需要自己准备一个域名）
 
-![ddns_go](/image/平板串流window桌面记录/ddns_go.png)
+![ddns_go](/image/平板串流window桌面记录/ddns_go.avif)
 
 配置完成后你的域名就可以动态解析到你的路由器上了
 
@@ -90,7 +90,7 @@ https://github.com/jeessy2/ddns-go
 
 还是在路由器管理页面上 192.168.31.1
 
-![端口转发](/image/平板串流window桌面记录/端口转发.png)
+![端口转发](/image/平板串流window桌面记录/端口转发.avif)
 
 **记得目标IP是你的电脑的局域网IP地址，可以在任务管理器→性能→以太网 那里看**
 
@@ -98,7 +98,7 @@ https://github.com/jeessy2/ddns-go
 
 这一步是防止你重启电脑或路由器后导致电脑在局域网的IP变化导致端口转发失效
 
-![静态DHCP](/image/平板串流window桌面记录/静态DHCP.png)
+![静态DHCP](/image/平板串流window桌面记录/静态DHCP.avif)
 
 最后在moonlight里面配对一下，**记得这里配对要用你的DDNS域名，不要用IP**
 
@@ -110,4 +110,4 @@ https://github.com/jeessy2/ddns-go
 2. 寝室无限设备联网
 3. 公网（甚至可以买个小主机放寝室当服务器用）
 
-![result](/image/平板串流window桌面记录/result.jpg)
+![result](/image/平板串流window桌面记录/result.avif)

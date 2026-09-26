@@ -29,7 +29,7 @@ https://www.docker.com/products/docker-desktop/
 
 安装完成是这个界面
 
-![docker](/image/使用docker快速启动若依框架/docker.png)
+![docker](/image/使用docker快速启动若依框架/docker.avif)
 
 ### 2.镜像下载
 
@@ -37,39 +37,39 @@ https://www.docker.com/products/docker-desktop/
 
 > mysql镜像大概1个G，网络条件差的可能要等一会
 
-![docker](/image/使用docker快速启动若依框架/search_mysql.png)
+![docker](/image/使用docker快速启动若依框架/search_mysql.avif)
 
 同理，把Redis也Pull下来
 
-![docker](/image/使用docker快速启动若依框架/search_redis.png)
+![docker](/image/使用docker快速启动若依框架/search_redis.avif)
 
 下载完成后点击左侧Image，界面如图
 
-![docker](/image/使用docker快速启动若依框架/image.png)
+![docker](/image/使用docker快速启动若依框架/image.avif)
 
 ### 3.启动容器
 
 点击mysql的三角形按钮，启动容器，界面如下，输入对应参数
 
-![docker](/image/使用docker快速启动若依框架/boot1.png)
+![docker](/image/使用docker快速启动若依框架/boot1.avif)
 
 完成后点击**Run**
 
 如下即可
 
-![docker](/image/使用docker快速启动若依框架/container1.png)
+![docker](/image/使用docker快速启动若依框架/container1.avif)
 
 同理，把Redis也创建一个容器
 
-![docker](/image/使用docker快速启动若依框架/image2.png)
+![docker](/image/使用docker快速启动若依框架/image2.avif)
 
 直接点击**Run**
 
-![docker](/image/使用docker快速启动若依框架/boot2.png)
+![docker](/image/使用docker快速启动若依框架/boot2.avif)
 
 出现下面的界面即可大功告成
 
-![docker](/image/使用docker快速启动若依框架/ready.png)
+![docker](/image/使用docker快速启动若依框架/ready.avif)
 
 ## 二、下载若依框架
 
@@ -91,41 +91,41 @@ https://gitee.com/y_project/RuoYi-Vue.git
 
 ### 1.使用`Navicat`软件连接本地数据库
 
-![navicat](/image/使用docker快速启动若依框架/navicat_connect.png)
+![navicat](/image/使用docker快速启动若依框架/navicat_connect.avif)
 
 ### 2.创建数据库
 
-![navicat](/image/使用docker快速启动若依框架/createdatabase.png)
+![navicat](/image/使用docker快速启动若依框架/createdatabase.avif)
 
 ### 3.导入数据表
 
 对应的sql文件在刚才下载的若依框架的`RuoYi-Vue/sql`文件夹下
 
-![navicat](/image/使用docker快速启动若依框架/createTable.png)
+![navicat](/image/使用docker快速启动若依框架/createTable.avif)
 
 导入这两个sql即可
 
-![navicat](/image/使用docker快速启动若依框架/sql.png)
+![navicat](/image/使用docker快速启动若依框架/sql.avif)
 
 ## 四、配置若依框架
 
 ### 1.配置Mysql连接
 
-![config](/image/使用docker快速启动若依框架/config1.png)
+![config](/image/使用docker快速启动若依框架/config1.avif)
 
 ### 2.配置Redis
 
-![config](/image/使用docker快速启动若依框架/config2.png)
+![config](/image/使用docker快速启动若依框架/config2.avif)
 
 ## 五、运行若依框架
 
 把若依目录下`ruoyi-admin\src\main\java\com\ruoyi\RuoYiApplication.java`运行起来
 
-![end](/image/使用docker快速启动若依框架/endbackend.png)
+![end](/image/使用docker快速启动若依框架/endbackend.avif)
 
 出现下面的即可成功
 
-![end](/image/使用docker快速启动若依框架/success.png)
+![end](/image/使用docker快速启动若依框架/success.avif)
 
 > 如果报错一堆的话，可以在docker那里把`Redis`的`container`停止然后删除，在`image`那里重新生成`Redis`，生成的时候**不要直接Run**了，配置换一个端口(参考mysql)，然后去`ruoyi-admin\src\main\resources\application.yml`修改为对应的端口即可
 
@@ -137,4 +137,4 @@ https://gitee.com/y_project/RuoYi-Vue.git
 
 出现下面的界面即可大功告成
 
-![success](/image/使用docker快速启动若依框架/front_success.png)
+![success](/image/使用docker快速启动若依框架/front_success.avif)

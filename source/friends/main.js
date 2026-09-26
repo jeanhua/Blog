@@ -35,7 +35,7 @@ function renderFriendLinks() {
       <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="friend-link-item ${item.category === '已失效' ? 'expired' : ''}">
         <div class="friend-avatar-wrap">
           <img alt="${item.title}" class="friend-avatar"
-               onerror="this.src='/image/failavatar.png'">
+               onerror="this.src='/image/failavatar.avif'">
         </div>
         <div class="friend-info">
           <h3 class="friend-title">${item.title}</h3>

@@ -25,7 +25,7 @@ categories:
 
 配置方法也很简单，只需要在NapCat页面添加两个服务器即可，一个http客户端用于向后端推送消息，一个http服务器用于接收后端的指令
 
-![截图](/image/QQbot/1.png)
+![截图](/image/QQbot/1.avif)
 
 ### AI部分
 

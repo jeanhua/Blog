@@ -23,7 +23,7 @@ sudo apt-get install apache2
 ```
 然后在地址栏输入公网IP看是否能访问到如下页面
 
-![Snipaste_2025-11-08_20-46-29](/image/ubuntu配置服务器/Snipaste_2025-11-08_20-46-29.png)
+![Snipaste_2025-11-08_20-46-29](/image/ubuntu配置服务器/Snipaste_2025-11-08_20-46-29.avif)
 
 此时网站的页面在/var/www/html/目录下，修改即可
 

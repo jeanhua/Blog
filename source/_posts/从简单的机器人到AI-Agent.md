@@ -18,31 +18,31 @@ typora-root-url: ./..
 
 **简单对话**
 
-![AI1](/image/从简单的机器人到AIAgent/AI1.png)
+![AI1](/image/从简单的机器人到AIAgent/AI1.avif)
 
 **二次元壁纸**
 
-![acg](/image/从简单的机器人到AIAgent/acg.png)
+![acg](/image/从简单的机器人到AIAgent/acg.avif)
 
 **不懂**
 
-![waifu](/image/从简单的机器人到AIAgent/waifu.png)
+![waifu](/image/从简单的机器人到AIAgent/waifu.avif)
 
 **一些实用工具**
 
-![douyin](/image/从简单的机器人到AIAgent/douyin.png)
+![douyin](/image/从简单的机器人到AIAgent/douyin.avif)
 
 **或者是一些好玩的功能**
 
-![gr](/image/从简单的机器人到AIAgent/gr.png)
+![gr](/image/从简单的机器人到AIAgent/gr.avif)
 
-![newsletter](/image/从简单的机器人到AIAgent/newsletter.png)
+![newsletter](/image/从简单的机器人到AIAgent/newsletter.avif)
 
 **但是这些感觉都太生硬，在AI时代，能不能赋予AI更强的功能**
 
 于是我给内置的AI插件添加了**Function Call**功能，让AI可以发表情包
 
-![AI3](/image/从简单的机器人到AIAgent/AI3.png)
+![AI3](/image/从简单的机器人到AIAgent/AI3.avif)
 
 ---
 
@@ -60,11 +60,11 @@ typora-root-url: ./..
 
 **操作Github**
 
-![create_issue](/image/从简单的机器人到AIAgent/create_issue.png)
+![create_issue](/image/从简单的机器人到AIAgent/create_issue.avif)
 
 **操作集市**
 
-![zanao1](/image/从简单的机器人到AIAgent/zanao1.png)
+![zanao1](/image/从简单的机器人到AIAgent/zanao1.avif)
 
 ---
 
@@ -74,7 +74,7 @@ typora-root-url: ./..
 
 慢只是一个方面，token爆炸才是关键
 
-![usage](/image/从简单的机器人到AIAgent/usage.png)
+![usage](/image/从简单的机器人到AIAgent/usage.avif)
 
 随便问几个问题就花了几百万的token了，还好DeepSeek便宜，要是换个模型几十块钱就没了
 
@@ -94,7 +94,7 @@ typora-root-url: ./..
 
 比如让AI去集市发个评论，总是喜欢发一些很像AI的话，想要效果好点还要仔细给她讲清楚，不然还擅自决定，那么怎么一句话让AI听懂指令，出色的完成任务呢
 
-![comment1](/image/从简单的机器人到AIAgent/comment1.png)
+![comment1](/image/从简单的机器人到AIAgent/comment1.avif)
 
 我想的是让她先生成一个评论，语言风格要像人，同时问我的意见，我满意了再评论
 
@@ -139,7 +139,7 @@ Once the user approves the draft:
 
 现在AI就可以准确遵守我们的指令了
 
-![comment2](/image/从简单的机器人到AIAgent/comment2.png)
+![comment2](/image/从简单的机器人到AIAgent/comment2.avif)
 
 ## 参考
 

@@ -29,7 +29,7 @@ Container(
 
 **但是**
 
-![image](/image/吐槽flutter/1.png)
+![image](/image/吐槽flutter/1.avif)
 
 问题居然出在这里
 
@@ -43,11 +43,11 @@ Container(
 )
 ```
 
-![image](/image/吐槽flutter/2.png)
+![image](/image/吐槽flutter/2.avif)
 
 最大行数拿去当占位符了是吧。。。。
 
 还是得靠代码整活
 
-![image](/image/吐槽flutter/3.png)
+![image](/image/吐槽flutter/3.avif)
 

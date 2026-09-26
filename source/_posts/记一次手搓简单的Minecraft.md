@@ -48,11 +48,11 @@ $$
 
 > 如果你曾经体验过**实际生活**给你带来的景象，你就会注意到离你越远的东西看起来更小。这个奇怪的效果称之为透视(Perspective)。
 
-![render_step](/image/手搓minecraft/render_step.png)
+![render_step](/image/手搓minecraft/render_step.avif)
 
 经过如上操作，我们成功将一个3D方块在我们的屏幕上渲染起来
 
-![scubox](/image/手搓minecraft/scubox.png)
+![scubox](/image/手搓minecraft/scubox.avif)
 
 ### 地形
 
@@ -64,7 +64,7 @@ $$
 
 > **Perlin噪声**（**Perlin noise，又称为柏林噪声**）指由**Ken Perlin**发明的自然噪声生成算法，具有在函数上的连续性，并可在多次调用时给出一致的数值。 在电子游戏领域中可以透过使用Perlin噪声生成具连续性的地形；或是在艺术领域中使用Perlin噪声生成图样。由于Perlin本人的失误，Perlin噪声这个名词现在被同时用于指代两种有一定联系的的噪声生成算法。这两种算法都广泛地应用于计算机图形学，因此人们对这两种算法的称呼存在一定误解。**Simplex噪声**和**分形噪声**都曾在严肃学术论文中被单独的称作**Perlin噪声**。
 
-![地形](/image/手搓minecraft/地形.png)
+![地形](/image/手搓minecraft/地形.avif)
 
 这样我们就完成了一个简单的mc
 
@@ -84,21 +84,21 @@ $$
 
 1. 内部的面：也就是**没有和空气接触的面**（P1,P2,P3,P4），我们直接跳过，只判断与空气接触的面，我们才记录顶点数据
 
-   ![排查非空气接触面](/image/手搓minecraft/排查非空气接触面.png)
+   ![排查非空气接触面](/image/手搓minecraft/排查非空气接触面.avif)
 
 2. 背面：对于一个封闭的物体，背面，也就是物体内部的面，我们也不需要渲染，那么就要剔除，那么我们怎么判断物体的外面还是内面呢，这就需要我们线性代数中学到的了，我们把一个三角形顶点按照逆时针连成向量，根据**右手定则**即可区分，这里OpenGL提供了自动的方法，我们只需要在输入数据时把各个顶点按照逆时针顺序输入
 
-   ![判断面的方向](/image/手搓minecraft/判断面的方向.png)
+   ![判断面的方向](/image/手搓minecraft/判断面的方向.avif)
 
 做完这些之后，我们的世界就是这个样子，我们进入地里面观察：
 
-![inside1](/image/手搓minecraft/inside1.png)
+![inside1](/image/手搓minecraft/inside1.avif)
 
-![inside2](/image/手搓minecraft/inside2.png)
+![inside2](/image/手搓minecraft/inside2.avif)
 
 可以看到只有表面渲染了
 
-![linemode](/image/手搓minecraft/linemode.png)
+![linemode](/image/手搓minecraft/linemode.avif)
 
 现在我们的面数量就大大减少了，只需要200~300MB (10区块半径) 即可
 
@@ -112,13 +112,13 @@ $$
 
 销毁没啥好讲的，但是生成区块的部分，如果我们每帧都进行计算生成区块，那么我们在区块生成时将会很卡，这里我的解决方案是使用**线程池**来生成区块，然后放在**缓冲队列**里面，每帧取出一个区块渲染，这就让我们的游戏无感生成区块了
 
-![渲染](/image/手搓minecraft/渲染.png)
+![渲染](/image/手搓minecraft/渲染.avif)
 
 ### 射线检测
 
 放置和摧毁方块，肯定需要判断准星对准的哪个方块，那么就需要射线检测，这里我使用的步进射线检测，步骤如下：
 
-![raytest](/image/手搓minecraft/raytest.png)
+![raytest](/image/手搓minecraft/raytest.avif)
 
 **从角色位置射出一条射线，然后不断增长，在一定限度内，如果增长之后的目标坐标处于某个方块的包裹区域内，则说明射线检测到某个物体，即可对该方块进行放置或者删除处理**
 
@@ -126,13 +126,13 @@ $$
 
 我们需要在射线检测到方块后进行回退一步，因为我们上面的方法无法判断射中了哪个面，于是需要在射中的前一个位置放置方块
 
-![raytest_go_back](/image/手搓minecraft/raytest_go_back.png)
+![raytest_go_back](/image/手搓minecraft/raytest_go_back.avif)
 
 **在射线检测到目标物体（P1）后回退一步，在上一个位置（P2）放置对应方块**
 
 这似乎是个不错的方法，但是可能会有个问题，如果对角线的情况下，会出现这种结果，**可以在对角线放置方块**
 
-![raytest_go_back_2](/image/手搓minecraft/raytest_go_back_2.png)
+![raytest_go_back_2](/image/手搓minecraft/raytest_go_back_2.avif)
 
 还有就是如果步进的步长过长可能导致跨方块，过短可能导致循环次数过多消耗性能，需要折中考虑
 
@@ -142,14 +142,14 @@ $$
 
 > 对应上述的操作过后需要重建该区块，如果是区块边缘的操作的话还需要重建旁边的区块，即上面说的不再渲染没有暴露在空气中的面
 
-![mc_raytest](/image/手搓minecraft/mc_raytest.png)
+![mc_raytest](/image/手搓minecraft/mc_raytest.avif)
 
 ## 最终成果
 
-![logo](/image/手搓minecraft/logo.png)
+![logo](/image/手搓minecraft/logo.avif)
 
-![logo2](/image/手搓minecraft/logo2.png)
+![logo2](/image/手搓minecraft/logo2.avif)
 
-![LOVE](/image/手搓minecraft/LOVE.png)
+![LOVE](/image/手搓minecraft/LOVE.avif)
 
-![river](/image/手搓minecraft/river.png)
+![river](/image/手搓minecraft/river.avif)

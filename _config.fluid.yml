@@ -478,7 +478,7 @@ footer:
     # 公安备案的编号，用于URL跳转查询
     police_code: 51012202001892
     # 公安备案的图片. 为空时不显示备案图片
-    police_icon: /image/gonganbeian.png
+    police_icon: /image/gonganbeian.avif
 
 
 #---------------------------

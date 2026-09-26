@@ -22,7 +22,7 @@ ai肯定不能像人一样点进去软件里面去翻帖子，所以需要编写
 
 这是逆向的相关代码
 
-![1](/image/手搓agent/1.png)
+![1](/image/手搓agent/1.avif)
 
 转成go之后就是这样
 
@@ -387,14 +387,14 @@ for {
 
 **查看热帖**
 
-![browsehot](/image/手搓agent/browsehot.png)
+![browsehot](/image/手搓agent/browsehot.avif)
 
 **查看帖子详情**
 
-![continue](/image/手搓agent/continue.png)
+![continue](/image/手搓agent/continue.avif)
 
 **搜索相关帖子**
 
-![search](/image/手搓agent/search.png)
+![search](/image/手搓agent/search.avif)
 
 **大功告成**
